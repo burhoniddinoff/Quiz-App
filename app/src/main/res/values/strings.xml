@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">QuizAppWithMVP</string>
+    <string name="todo">TODO</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="version">version 1.0.0</string>
+    <string name="next">Next</string>
+
+
+    <!--    SUBJECT-->
+    <string name="topic1_question1">What is the chemical symbol for gold?</string>
+    <string name="topic1_question2">Which force is responsible for keeping planets in orbit around the sun?</string>
+    <string name="topic1_question3">What is the name of the galaxy that contains our solar system?</string>
+    <string name="topic1_question4">What is the process by which water vapor turns into liquid water?</string>
+    <string name="topic1_question5">Which gas is primarily responsible for the greenhouse effect on Earth?</string>
+    <string name="topic1_question6">What is the largest organ in the human body?</string>
+    <string name="topic1_question7">Which part of a plant is responsible for the process of photosynthesis?</string>
+    <string name="topic1_question8">What is a virus?</string>
+    <string name="topic1_question9">Which planet is known as the Red Planet?</string>
+    <string name="topic1_question10">What is the formula for calculating the force acting on an object?</string>
+    <string name="topic1_question11">What is the chemical symbol for water?</string>
+    <string name="topic1_question12">What is the Earth\'s primary source of energy?</string>
+    <string name="topic1_question13">What is the unit of measurement for electric current?</string>
+    <string name="topic1_question14">Which gas do plants absorb from the atmosphere during photosynthesis?</string>
+    <string name="topic1_question15">What is the force that pulls objects towards the center of the Earth?</string>
+    <string name="topic1_question16">Which of the following is a renewable source of energy?</string>
+    <string name="topic1_question17">What is the smallest unit of matter?</string>
+    <string name="topic1_question18">What causes the seasons on Earth?</string>
+    <string name="topic1_question19">Which organelle is responsible for packaging and transporting proteins within the cell?</string>
+    <string name="topic1_question20">What is the chemical formula for common table salt?</string>
+
+
+    <!--    COUNTRIES-->
+    <string name="topic2_question1">What is the capital of Australia?</string>
+    <string name="topic2_question2">Which country is known as the Land of the Rising Sun?</string>
+    <string name="topic2_question3">What is the official language of Brazil?</string>
+    <string name="topic2_question4">Which continent is known as the "Dark Continent"?</string>
+    <string name="topic2_question5">Which country is the largest by land area?</string>
+    <string name="topic2_question6">In which country would you find the Great Barrier Reef?</string>
+    <string name="topic2_question7">What is the currency of Japan?</string>
+    <string name="topic2_question8">Which European country is known for its tulips and windmills?</string>
+    <string name="topic2_question9">Which river is the longest in the world?</string>
+    <string name="topic2_question10">Which country is famous for the ancient city of Petra?</string>
+    <string name="topic2_question11">What is the largest island country in the world?</string>
+    <string name="topic2_question12">Which country is known as the "Land of the Midnight Sun"?</string>
+    <string name="topic2_question13">In which continent is the Sahara Desert located?</string>
+    <string name="topic2_question14">What is the official language of South Africa?</string>
+    <string name="topic2_question15">Which country is famous for the ancient city of Machu Picchu?</string>
+    <string name="topic2_question16">What is the currency of India?</string>
+    <string name="topic2_question17">Which European country is known for its fjords?</string>
+    <string name="topic2_question18">What is the smallest country in the world by land area?</string>
+    <string name="topic2_question19">Which river is considered the lifeline of Egypt?</string>
+    <string name="topic2_question20">Which country is known as the "Pearl of the Indian Ocean"?</string>
+
+
+    <!--    PLANET-->
+    <string name="topic3_question1">Which planet is known as the "Red Planet"?</string>
+    <string name="topic3_question2">What is the largest planet in our solar system?</string>
+    <string name="topic3_question3">Which planet is closest to the Sun?</string>
+    <string name="topic3_question4">Which planet is known as the "Morning Star" or "Evening Star" and is often visible shortly before sunrise or after sunset?</string>
+    <string name="topic3_question5">What is the name of the largest moon of Jupiter?</string>
+    <string name="topic3_question6">Which planet is referred to as the "Blue Planet"?</string>
+    <string name="topic3_question7">What is the Great Red Spot on Jupiter?</string>
+    <string name="topic3_question8">Which planet is known for its spectacular ring system?</string>
+    <string name="topic3_question9">What is the smallest planet in our solar system?</string>
+    <string name="topic3_question10">Which planet is known for its prominent system of beautiful, bright rings?</string>
+    <string name="topic3_question11">Which planet is known as the "Ice Giant" in our solar system?</string>
+    <string name="topic3_question12">What is the largest volcano in our solar system, located on Mars?</string>
+    <string name="topic3_question13">Which planet is often called the "Evening Star" when visible after sunset?</string>
+    <string name="topic3_question14">What is the name of the spacecraft that successfully landed on Saturn\'s moon Titan in 2005?</string>
+    <string name="topic3_question15">Which planet is known for having a day longer than its year?</string>
+    <string name="topic3_question16">What is the main component of Jupiter\'s atmosphere?</string>
+    <string name="topic3_question17">Which planet is famous for its prominent and colorful bands of clouds in its atmosphere?</string>
+    <string name="topic3_question18">What is the name of the first human-made object to reach the escape velocity of our solar system?</string>
+    <string name="topic3_question19">Which planet has the highest average surface temperature due to its thick atmosphere and greenhouse effect?</string>
+    <string name="topic3_question20">What is the largest moon of Saturn, known for its icy surface and geysers?</string>
+
+
+    <!--    JAVA-->
+    <string name="topic4_question1">What is the correct way to declare a variable in Java?</string>
+    <string name="topic4_question2">How is an array initialized in Java?</string>
+    <string name="topic4_question3">What is the purpose of the static keyword in Java?</string>
+    <string name="topic4_question4">Which of the following is NOT a primitive data type in Java?</string>
+    <string name="topic4_question5">How do you comment a single-line in Java?</string>
+    <string name="topic4_question6">What is the purpose of the break statement in a switch statement?</string>
+    <string name="topic4_question7">What is the default value of a boolean variable in Java?</string>
+    <string name="topic4_question8">How do you convert a String to an int in Java?</string>
+    <string name="topic4_question9">What is the purpose of the super keyword in Java?</string>
+    <string name="topic4_question10">Which of the following statements creates a new thread in Java?</string>
+    <string name="topic4_question11">What is the result of the expression 5 / 2 in Java?</string>
+    <string name="topic4_question12">How do you declare a constant variable in Java?</string>
+    <string name="topic4_question13">What is the purpose of the this keyword in Java?</string>
+    <string name="topic4_question14">How is an interface different from a class in Java?</string>
+    <string name="topic4_question15">What is the purpose of the StringBuilder class in Java?</string>
+    <string name="topic4_question16">What is the purpose of the try, catch, and finally blocks in exception handling?</string>
+    <string name="topic4_question17">How do you create an infinite loop in Java?</string>
+    <string name="topic4_question18">What is the Java Virtual Machine (JVM)?</string>
+    <string name="topic4_question19">What is the purpose of the extends keyword in Java?</string>
+    <string name="topic4_question20">How can you prevent a method from being overridden in a subclass?</string>
+
+    <!--    SCIENTIST-->
+    <string name="topic5_question1">Who is known as the father of modern physics?</string>
+    <string name="topic5_question2">What is the chemical symbol for gold?</string>
+    <string name="topic5_question3">What is the largest planet in our solar system?</string>
+    <string name="topic5_question4">Which element is essential for human bone health?</string>
+    <string name="topic5_question5">What is the basic unit of life?</string>
+    <string name="topic5_question6">Who developed the theory of evolution by natural selection?</string>
+    <string name="topic5_question7">What is the chemical formula for water?</string>
+    <string name="topic5_question8">In which organ of the human body is insulin produced?</string>
+    <string name="topic5_question9">What gas do plants absorb from the atmosphere during photosynthesis?</string>
+    <string name="topic5_question10">Who discovered penicillin, the first antibiotic?</string>
+    <string name="topic5_question11">What is the chemical symbol for the element iron?</string>
+    <string name="topic5_question12">Which gas makes up the majority of Earth\'s atmosphere?</string>
+    <string name="topic5_question13">What is the smallest unit of an element that retains its chemical properties?</string>
+    <string name="topic5_question14">Which planet is known as the "Red Planet"?</string>
+    <string name="topic5_question15">What is the process by which plants make their own food using sunlight?</string>
+    <string name="topic5_question16">Who is credited with the discovery of the structure of DNA?</string>
+    <string name="topic5_question17">What is the speed of light in a vacuum?</string>
+    <string name="topic5_question18">Which of the following is a renewable source of energy?</string>
+    <string name="topic5_question19">What is the chemical formula for table salt?</string>
+    <string name="topic5_question20">Who formulated the laws of motion and universal gravitation?</string>
+
+    <!--    KOTLIN-->
+    <string name="topic6_question1">What is Kotlin?</string>
+    <string name="topic6_question2">In Kotlin, what keyword is used to declare a variable that can be reassigned?</string>
+    <string name="topic6_question3">What is the purpose of the lateinit modifier in Kotlin?</string>
+    <string name="topic6_question4">In Kotlin, what does the "Elvis operator" (?:) do?</string>
+    <string name="topic6_question5">What is the primary function of the fun keyword in Kotlin?</string>
+    <string name="topic6_question6">How do you define a single-line comment in Kotlin?</string>
+    <string name="topic6_question7">What is the purpose of the when expression in Kotlin?</string>
+    <string name="topic6_question8">In Kotlin, what does the term "nullable type" mean?</string>
+    <string name="topic6_question9">What is the purpose of the init block in a Kotlin class?</string>
+    <string name="topic6_question10">How do you declare a data class in Kotlin?</string>
+    <string name="topic6_question11">What is the purpose of the init block in a primary constructor in Kotlin?</string>
+    <string name="topic6_question12">In Kotlin, what is the default visibility modifier for properties and functions if no modifier is specified?</string>
+    <string name="topic6_question13">How is a lambda expression declared in Kotlin?</string>
+    <string name="topic6_question14">What is the purpose of the run extension function in Kotlin?</string>
+    <string name="topic6_question15">In Kotlin, how do you perform a type cast?</string>
+    <string name="topic6_question16">What does the by lazy keyword do in Kotlin?</string>
+    <string name="topic6_question17">How is a sealed class different from a regular class in Kotlin?</string>
+    <string name="topic6_question18">What is the purpose of the in keyword in Kotlin when used with generics?</string>
+    <string name="topic6_question19">What is the purpose of the also extension function in Kotlin?</string>
+    <string name="topic6_question20">How do you declare a constant in Kotlin?</string>
+
+    <!--    C++-->
+    <string name="topic7_question1">What is the correct syntax for declaring a variable in C++?</string>
+    <string name="topic7_question2">How do you initialize an array C++ with 5 elements of value O?</string>
+    <string name="topic7_question3">What does the \'cin\' object in C++ handle?</string>
+    <string name="topic7_question4">Which C++ keyword is used to dynamically allocate memory?</string>
+    <string name="topic7_question5">What is the purpose of the \'break\' statement in a switch statement?</string>
+    <string name="topic7_question6">How is a reference variable declared in C++?</string>
+    <string name="topic7_question7">What is the output of the following code snippet?
+    \n\nint x = 5;
+    \ncout &lt;&lt; ++x + x++ >> </string>
+    <string name="topic7_question8">In C++, how do you open a file named "example.txt" for writing??</string>
+    <string name="topic7_question9">What is the purpose of the \'const\' keyword in C++?</string>
+    <string name="topic7_question10">Which C++ loop is guaranteed to execute at least once?</string>
+
+    <string name="topic7_question11">What is the purpose of the \'endl\' in C++?</string>
+    <string name="topic7_question12">How do you declare a function in C++ that takes two integers as parameters and returns their sum?</string>
+    <string name="topic7_question13">In C++, what is the purpose of the \'static\' keyword when used with a variable?</string>
+    <string name="topic7_question14">What is the size of the \'int\' data type in C++?</string>
+    <string name="topic7_question15">How do you access the first element of an array named \'myArray\' in C++?</string>
+    <string name="topic7_question16">What is the purpose of the \'virtual\' keyword in C++ when used with a function in a base class?</string>
+    <string name="topic7_question17">What is the scope resolution operator in C++?</string>
+    <string name="topic7_question18">How do you comment a single line in C++?</string>
+    <string name="topic7_question19">What does the \'sizeof\' operator in C++ return?</string>
+    <string name="topic7_question20">What is the purpose of the \'try\', \'catch\', and \'throw\' keywords in C++?</string>
+
+    <string name="total">Total Questions: 10</string>
+    <string name="exit">Exit ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizAppWithMVP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#142850</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.QuizAppWithMVP" parent="Base.Theme.QuizAppWithMVP" />
+
+    <!-- Custom AlertDialog style -->
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Set your desired background color -->
+        <item name="android:background">#324C81</item>
+        <!-- Set your desired text color -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Customize other attributes as needed -->
+    </style>
+</resources>
