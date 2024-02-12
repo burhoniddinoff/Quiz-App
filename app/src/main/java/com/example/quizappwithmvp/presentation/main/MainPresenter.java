@@ -42,6 +42,7 @@ public class MainPresenter implements MainContract.Present {
     @Override
     public void clickNextButton() {
         QuestionData currentQuestion = questionDataList.get(currentPos);
+
         if (currentQuestion.getAnswer().equals(currentQuestion.getVariants()[selectIndex])) {
             this.correctCount++;
         } else this.wrongCount++;

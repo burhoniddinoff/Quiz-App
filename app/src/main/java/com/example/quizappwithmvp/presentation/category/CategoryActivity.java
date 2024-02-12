@@ -1,9 +1,9 @@
 package com.example.quizappwithmvp.presentation.category;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.quizappwithmvp.R;
 import com.example.quizappwithmvp.data.model.CategoryEnum;
@@ -29,7 +29,6 @@ public class CategoryActivity extends AppCompatActivity implements CategoryContr
         findViewById(R.id.java).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.JAVA));
         findViewById(R.id.kotlin).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.KOTLIN));
         findViewById(R.id._c_).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.C__));
-
     }
 
     @Override

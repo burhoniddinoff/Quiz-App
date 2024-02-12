@@ -1,8 +1,5 @@
 package com.example.quizappwithmvp.presentation.main;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,10 +8,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.quizappwithmvp.R;
 import com.example.quizappwithmvp.data.model.QuestionData;
-import com.example.quizappwithmvp.presentation.dialog.MyDialog;
-import com.example.quizappwithmvp.presentation.dialog.SelectListener;
 import com.example.quizappwithmvp.presentation.win.WinActivity;
 
 import java.util.ArrayList;
@@ -24,8 +22,6 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     private MainContract.Present present;
     private TextView textQuestion;
     private Button btnNext;
-    private Button btnFinish;
-    private List<ViewGroup> groupsVariant;
     private List<ImageView> images;
     private List<TextView> texts;
 
@@ -42,8 +38,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     private void loadViews() {
         textQuestion = findViewById(R.id.text_question);
         btnNext = findViewById(R.id.btn_next);
-        btnFinish = findViewById(R.id.btn_finish);
-
+        Button btnFinish = findViewById(R.id.btn_finish);
 
         images = new ArrayList<>();
         images.add(findViewById(R.id.image_variant_1));
@@ -57,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
         texts.add(findViewById(R.id.text_variant_3));
         texts.add(findViewById(R.id.text_variant_4));
 
-        groupsVariant = new ArrayList<>();
+        List<ViewGroup> groupsVariant = new ArrayList<>();
         groupsVariant.add(findViewById(R.id.variant1));
         groupsVariant.add(findViewById(R.id.variant2));
         groupsVariant.add(findViewById(R.id.variant3));
@@ -99,11 +94,10 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
                 .setTitle("Finish")
                 .setMessage("Do you want to finish ?")
                 .setPositiveButton("Yes", (dialog, which) -> present.clickFinishButton())
-                .setNegativeButton("No", (dialog, which) -> {})
+                .setNegativeButton("No", (dialog, which) -> {
+                })
                 .create()
                 .show());
-//        btnFinish.setOnClickListener(v -> present.clickFinishButton());
-
     }
 
 
@@ -149,17 +143,4 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
         textView.setText(count + "/10");
     }
 
-//    @Override
-//    public void onBackPressed() {
-//        new AlertDialog.Builder(MainActivity.this, R.style.CustomAlertDialog)
-//                .setTitle("Exit")
-//                .setMessage("Do you want to exit ?")
-//                .setPositiveButton("Yes", (dialog, which) -> finish())
-//                .setNegativeButton("No", (dialog, which) -> {
-//                })
-//                .create()
-//                .show();
-//        super.onBackPressed();
-//
-//    }
 }

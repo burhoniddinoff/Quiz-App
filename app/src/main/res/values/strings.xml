@@ -120,51 +120,1958 @@
     <string name="topic5_question20">Who formulated the laws of motion and universal gravitation?</string>
 
     <!--    KOTLIN-->
-    <string name="topic6_question1">What is Kotlin?</string>
-    <string name="topic6_question2">In Kotlin, what keyword is used to declare a variable that can be reassigned?</string>
-    <string name="topic6_question3">What is the purpose of the lateinit modifier in Kotlin?</string>
-    <string name="topic6_question4">In Kotlin, what does the "Elvis operator" (?:) do?</string>
-    <string name="topic6_question5">What is the primary function of the fun keyword in Kotlin?</string>
-    <string name="topic6_question6">How do you define a single-line comment in Kotlin?</string>
-    <string name="topic6_question7">What is the purpose of the when expression in Kotlin?</string>
-    <string name="topic6_question8">In Kotlin, what does the term "nullable type" mean?</string>
-    <string name="topic6_question9">What is the purpose of the init block in a Kotlin class?</string>
-    <string name="topic6_question10">How do you declare a data class in Kotlin?</string>
-    <string name="topic6_question11">What is the purpose of the init block in a primary constructor in Kotlin?</string>
-    <string name="topic6_question12">In Kotlin, what is the default visibility modifier for properties and functions if no modifier is specified?</string>
-    <string name="topic6_question13">How is a lambda expression declared in Kotlin?</string>
-    <string name="topic6_question14">What is the purpose of the run extension function in Kotlin?</string>
-    <string name="topic6_question15">In Kotlin, how do you perform a type cast?</string>
-    <string name="topic6_question16">What does the by lazy keyword do in Kotlin?</string>
-    <string name="topic6_question17">How is a sealed class different from a regular class in Kotlin?</string>
-    <string name="topic6_question18">What is the purpose of the in keyword in Kotlin when used with generics?</string>
-    <string name="topic6_question19">What is the purpose of the also extension function in Kotlin?</string>
-    <string name="topic6_question20">How do you declare a constant in Kotlin?</string>
+
+    <!--    <string name="topic6_question1">What is Kotlin?</string>-->
+    <!--    <string name="topic6_question2">In Kotlin, what keyword is used to declare a variable that can be reassigned?</string>-->
+    <!--    <string name="topic6_question3">What is the purpose of the lateinit modifier in Kotlin?</string>-->
+    <!--    <string name="topic6_question4">In Kotlin, what does the "Elvis operator" (?:) do?</string>-->
+    <!--    <string name="topic6_question5">What is the primary function of the fun keyword in Kotlin?</string>-->
+    <!--    <string name="topic6_question6">How do you define a single-line comment in Kotlin?</string>-->
+    <!--    <string name="topic6_question7">What is the purpose of the when expression in Kotlin?</string>-->
+    <!--    <string name="topic6_question8">In Kotlin, what does the term "nullable type" mean?</string>-->
+    <!--    <string name="topic6_question9">What is the purpose of the init block in a Kotlin class?</string>-->
+    <!--    <string name="topic6_question10">How do you declare a data class in Kotlin?</string>-->
+    <!--    <string name="topic6_question11">What is the purpose of the init block in a primary constructor in Kotlin?</string>-->
+    <!--    <string name="topic6_question12">In Kotlin, what is the default visibility modifier for properties and functions if no modifier is specified?</string>-->
+    <!--    <string name="topic6_question13">How is a lambda expression declared in Kotlin?</string>-->
+    <!--    <string name="topic6_question14">What is the purpose of the run extension function in Kotlin?</string>-->
+    <!--    <string name="topic6_question15">In Kotlin, how do you perform a type cast?</string>-->
+    <!--    <string name="topic6_question16">What does the by lazy keyword do in Kotlin?</string>-->
+    <!--    <string name="topic6_question17">How is a sealed class different from a regular class in Kotlin?</string>-->
+    <!--    <string name="topic6_question18">What is the purpose of the in keyword in Kotlin when used with generics?</string>-->
+    <!--    <string name="topic6_question19">What is the purpose of the also extension function in Kotlin?</string>-->
+    <!--    <string name="topic6_question20">How do you declare a constant in Kotlin?</string>-->
+
+    <!-- Topic 6: Kotlin Question 1 -->
+    <string name="topic6_question1">What keyword is used to declare a variable in Kotlin?</string>
+    <string name="topic6_question1_option1">var</string>
+    <string name="topic6_question1_option2">val</string>
+    <string name="topic6_question1_option3">const</string>
+    <string name="topic6_question1_option4">let</string>
+    <string name="topic6_question1_answer">var</string>
+
+    <!-- Topic 6: Kotlin Question 2 -->
+    <string name="topic6_question2">Which of the following represents a nullable type in Kotlin?</string>
+    <string name="topic6_question2_option1">Int</string>
+    <string name="topic6_question2_option2">String</string>
+    <string name="topic6_question2_option3">Double</string>
+    <string name="topic6_question2_option4">String?</string>
+    <string name="topic6_question2_answer">String?</string>
+
+    <!-- Topic 6: Kotlin Question 3 -->
+    <string name="topic6_question3">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val x: Int? = null
+\n    println(x ?: 0)
+\n}</string>
+    <string name="topic6_question3_option1">0</string>
+    <string name="topic6_question3_option2">1</string>
+    <string name="topic6_question3_option3">Null</string>
+    <string name="topic6_question3_option4">Compilation error</string>
+    <string name="topic6_question3_answer">0</string>
+
+    <!-- Topic 6: Kotlin Question 4 -->
+    <string name="topic6_question4">What is the correct syntax for defining a function in Kotlin?</string>
+    <string name="topic6_question4_option1">function add(a: Int, b: Int) { return a + b }</string>
+    <string name="topic6_question4_option2">fun add(a: Int, b: Int): Int { return a + b }</string>
+    <string name="topic6_question4_option3">def add(a: Int, b: Int): Int { return a + b }</string>
+    <string name="topic6_question4_option4">fun add(a: Int, b: Int) -> Int { return a + b }</string>
+    <string name="topic6_question4_answer">fun add(a: Int, b: Int): Int { return a + b }</string>
+
+    <!-- Topic 6: Kotlin Question 5 -->
+    <string name="topic6_question5">What is the purpose of the \"let\" function in Kotlin?</string>
+    <string name="topic6_question5_option1">To declare a constant variable</string>
+    <string name="topic6_question5_option2">To perform a null-safe operation</string>
+    <string name="topic6_question5_option3">To define an extension function</string>
+    <string name="topic6_question5_option4">To execute a block of code on a nullable object</string>
+    <string name="topic6_question5_answer">To execute a block of code on a nullable object</string>
+
+    <!-- Topic 6: Kotlin Question 6 -->
+    <string name="topic6_question6">Which of the following is the correct way to declare a nullable type in Kotlin?</string>
+    <string name="topic6_question6_option1">String?</string>
+    <string name="topic6_question6_option2">String</string>
+    <string name="topic6_question6_option3">String!</string>
+    <string name="topic6_question6_option4">String??</string>
+    <string name="topic6_question6_answer">String?</string>
+
+    <!-- Topic 6: Kotlin Question 7 -->
+    <string name="topic6_question7">What is the purpose of the \"apply\" function in Kotlin?</string>
+    <string name="topic6_question7_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question7_option2">To initialize the properties of an object</string>
+    <string name="topic6_question7_option3">To define an extension function</string>
+    <string name="topic6_question7_option4">To perform a null-safe operation</string>
+    <string name="topic6_question7_answer">To initialize the properties of an object</string>
+
+    <!-- Topic 6: Kotlin Question 8 -->
+    <string name="topic6_question8">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val x: String? = null
+\n    println(x ?: "Hello")
+\n}</string>
+    <string name="topic6_question8_option1">null</string>
+    <string name="topic6_question8_option2">Hello</string>
+    <string name="topic6_question8_option3">Compilation error</string>
+    <string name="topic6_question8_option4">Runtime error</string>
+    <string name="topic6_question8_answer">Hello</string>
+
+    <!-- Topic 6: Kotlin Question 9 -->
+    <string name="topic6_question9">What is the correct syntax for a lambda expression in Kotlin?</string>
+    <string name="topic6_question9_option1">{ (a, b) -> a + b }</string>
+    <string name="topic6_question9_option2">{ a, b -> a + b }</string>
+    <string name="topic6_question9_option3">{ (a: Int, b: Int) -> a + b }</string>
+    <string name="topic6_question9_option4">{ Int a, Int b -> a + b }</string>
+    <string name="topic6_question9_answer">{ (a, b) -> a + b }</string>
+
+    <!-- Topic 6: Kotlin Question 10 -->
+    <string name="topic6_question10">What is the purpose of the \"with\" function in Kotlin?</string>
+    <string name="topic6_question10_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question10_option2">To initialize the properties of an object</string>
+    <string name="topic6_question10_option3">To define an extension function</string>
+    <string name="topic6_question10_option4">To perform a null-safe operation</string>
+    <string name="topic6_question10_answer">To execute a block of code on an object</string>
+
+    <!-- Topic 6: Kotlin Question 11 -->
+    <string name="topic6_question11">What is the purpose of the \"let\" function in Kotlin?</string>
+    <string name="topic6_question11_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question11_option2">To initialize the properties of an object</string>
+    <string name="topic6_question11_option3">To define an extension function</string>
+    <string name="topic6_question11_option4">To perform a null-safe operation</string>
+    <string name="topic6_question11_answer">To execute a block of code on a nullable object</string>
+
+    <!-- Topic 6: Kotlin Question 12 -->
+    <string name="topic6_question12">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.filter { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question12_option1">[2, 4]</string>
+    <string name="topic6_question12_option2">[1, 2, 3, 4, 5]</string>
+    <string name="topic6_question12_option3">[1, 3, 5]</string>
+    <string name="topic6_question12_option4">[1, 4]</string>
+    <string name="topic6_question12_answer">[2, 4]</string>
+
+    <!-- Topic 6: Kotlin Question 13 -->
+    <string name="topic6_question13">What is the correct way to declare a constant in Kotlin?</string>
+    <string name="topic6_question13_option1">val PI = 3.14</string>
+    <string name="topic6_question13_option2">const val PI = 3.14</string>
+    <string name="topic6_question13_option3">var PI = 3.14</string>
+    <string name="topic6_question13_option4">final val PI = 3.14</string>
+    <string name="topic6_question13_answer">val PI = 3.14</string>
+
+    <!-- Topic 6: Kotlin Question 14 -->
+    <string name="topic6_question14">What is the purpose of the \"run\" function in Kotlin?</string>
+    <string name="topic6_question14_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question14_option2">To initialize the properties of an object</string>
+    <string name="topic6_question14_option3">To define an extension function</string>
+    <string name="topic6_question14_option4">To perform a null-safe operation</string>
+    <string name="topic6_question14_answer">To execute a block of code on an object</string>
+
+    <!-- Topic 6: Kotlin Question 15 -->
+    <string name="topic6_question15">What does the \"inline\" keyword do in Kotlin?</string>
+    <string name="topic6_question15_option1">It specifies that a function cannot be inlined</string>
+    <string name="topic6_question15_option2">It allows the compiler to inline the function call at the call site</string>
+    <string name="topic6_question15_option3">It specifies that a function must be inlined</string>
+    <string name="topic6_question15_option4">It allows the compiler to optimize the function</string>
+    <string name="topic6_question15_answer">It allows the compiler to inline the function call at the call site</string>
+
+    <!-- Topic 6: Kotlin Question 16 -->
+    <string name="topic6_question16">What is the purpose of the \"apply\" function in Kotlin?</string>
+    <string name="topic6_question16_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question16_option2">To initialize the properties of an object</string>
+    <string name="topic6_question16_option3">To define an extension function</string>
+    <string name="topic6_question16_option4">To perform a null-safe operation</string>
+    <string name="topic6_question16_answer">To initialize the properties of an object</string>
+
+    <!-- Topic 6: Kotlin Question 17 -->
+    <string name="topic6_question17">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val str = "hello"
+\n    val result = str.run {
+\n        length
+\n    }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question17_option1">5</string>
+    <string name="topic6_question17_option2">"hello"</string>
+    <string name="topic6_question17_option3">"5"</string>
+    <string name="topic6_question17_option4">0</string>
+    <string name="topic6_question17_answer">5</string>
+
+    <!-- Topic 6: Kotlin Question 18 -->
+    <string name="topic6_question18">What is the purpose of the \"also\" function in Kotlin?</string>
+    <string name="topic6_question18_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question18_option2">To initialize the properties of an object</string>
+    <string name="topic6_question18_option3">To define an extension function</string>
+    <string name="topic6_question18_option4">To perform a null-safe operation</string>
+    <string name="topic6_question18_answer">To execute a block of code on an object and return the object</string>
+
+    <!-- Topic 6: Kotlin Question 19 -->
+    <string name="topic6_question19">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val numbers = listOf(1, 2, 3, 4, 5)
+\n    val result = numbers.filter { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question19_option1">[1, 3, 5]</string>
+    <string name="topic6_question19_option2">[2, 4]</string>
+    <string name="topic6_question19_option3">[1, 2, 3, 4, 5]</string>
+    <string name="topic6_question19_option4">[4, 2]</string>
+    <string name="topic6_question19_answer">[2, 4]</string>
+
+    <!-- Topic 6: Kotlin Question 20 -->
+    <string name="topic6_question20">What is the purpose of the \"with\" function in Kotlin?</string>
+    <string name="topic6_question20_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question20_option2">To initialize the properties of an object</string>
+    <string name="topic6_question20_option3">To define an extension function</string>
+    <string name="topic6_question20_option4">To perform a null-safe operation</string>
+    <string name="topic6_question20_answer">To execute a block of code with an object as its receiver</string>
+
+    <!-- Topic 6: Kotlin Question 21 -->
+    <string name="topic6_question21">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val nums = mutableListOf(1, 2, 3, 4, 5)
+\n    nums.apply {
+\n        add(6)
+\n        remove(3)
+\n    }
+\n    println(nums)
+\n}</string>
+    <string name="topic6_question21_option1">[1, 2, 4, 5, 6]</string>
+    <string name="topic6_question21_option2">[1, 2, 4, 5]</string>
+    <string name="topic6_question21_option3">[1, 2, 3, 4, 5, 6]</string>
+    <string name="topic6_question21_option4">[1, 2, 3, 4, 6]</string>
+    <string name="topic6_question21_answer">[1, 2, 4, 5, 6]</string>
+
+    <!-- Topic 6: Kotlin Question 22 -->
+    <string name="topic6_question22">What is the purpose of the \"let\" function in Kotlin?</string>
+    <string name="topic6_question22_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question22_option2">To initialize the properties of an object</string>
+    <string name="topic6_question22_option3">To define an extension function</string>
+    <string name="topic6_question22_option4">To perform a null-safe operation</string>
+    <string name="topic6_question22_answer">To execute a block of code on a non-null object</string>
+
+    <!-- Topic 6: Kotlin Question 23 -->
+    <string name="topic6_question23">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val str: String? = null
+\n    val result = str?.let {
+\n        it.length
+\n    }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question23_option1">0</string>
+    <string name="topic6_question23_option2">null</string>
+    <string name="topic6_question23_option3">"null"</string>
+    <string name="topic6_question23_option4">Compilation error</string>
+    <string name="topic6_question23_answer">null</string>
+
+    <!-- Topic 6: Kotlin Question 24 -->
+    <string name="topic6_question24">What does the \"!!\" operator do in Kotlin?</string>
+    <string name="topic6_question24_option1">Performs a null-safe operation</string>
+    <string name="topic6_question24_option2">Executes a block of code if the value is null</string>
+    <string name="topic6_question24_option3">Forces a nullable object to be non-null</string>
+    <string name="topic6_question24_option4">Returns the length of a nullable string</string>
+    <string name="topic6_question24_answer">Forces a nullable object to be non-null</string>
+
+    <!-- Topic 6: Kotlin Question 25 -->
+    <string name="topic6_question25">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val x: String? = null
+\n    println(x ?: "Hello")
+\n}</string>
+    <string name="topic6_question25_option1">null</string>
+    <string name="topic6_question25_option2">Hello</string>
+    <string name="topic6_question25_option3">Compilation error</string>
+    <string name="topic6_question25_option4">Nothing is printed</string>
+    <string name="topic6_question25_answer">Hello</string>
+
+    <!-- Topic 6: Kotlin Question 26 -->
+    <string name="topic6_question26">What is the purpose of the \"run\" function in Kotlin?</string>
+    <string name="topic6_question26_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question26_option2">To initialize the properties of an object</string>
+    <string name="topic6_question26_option3">To define an extension function</string>
+    <string name="topic6_question26_option4">To perform a null-safe operation</string>
+    <string name="topic6_question26_answer">To execute a block of code with an object as its receiver</string>
+
+    <!-- Topic 6: Kotlin Question 27 -->
+    <string name="topic6_question27">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val str = "hello"
+\n    val result = str.also {
+\n        println(it.toUpperCase())
+\n    }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question27_option1">HELLO\nhello</string>
+    <string name="topic6_question27_option2">HELLO</string>
+    <string name="topic6_question27_option3">Compilation error</string>
+    <string name="topic6_question27_option4">hello\nHELLO</string>
+    <string name="topic6_question27_answer">HELLO\nhello</string>
+
+    <!-- Topic 6: Kotlin Question 28 -->
+    <string name="topic6_question28">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val numbers = mutableListOf(1, 2, 3, 4, 5)
+\n    val result = numbers.let {
+\n        it.add(6)
+\n        it.remove(3)
+\n        it.size
+\n    }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question28_option1">4</string>
+    <string name="topic6_question28_option2">5</string>
+    <string name="topic6_question28_option3">6</string>
+    <string name="topic6_question28_option4">Compilation error</string>
+    <string name="topic6_question28_answer">5</string>
+
+    <!-- Topic 6: Kotlin Question 29 -->
+    <string name="topic6_question29">What is the purpose of the \"takeIf\" function in Kotlin?</string>
+    <string name="topic6_question29_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question29_option2">To initialize the properties of an object</string>
+    <string name="topic6_question29_option3">To define an extension function</string>
+    <string name="topic6_question29_option4">To perform a null-safe operation</string>
+    <string name="topic6_question29_answer">To return the object if it satisfies the given predicate, otherwise null</string>
+
+    <!-- Topic 6: Kotlin Question 30 -->
+    <string name="topic6_question30">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val x = 5
+\n    val result = x.takeIf { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question30_option1">5</string>
+    <string name="topic6_question30_option2">null</string>
+    <string name="topic6_question30_option3">true</string>
+    <string name="topic6_question30_option4">false</string>
+    <string name="topic6_question30_answer">null</string>
+
+    <!-- Topic 6: Kotlin Question 31 -->
+    <string name="topic6_question31">What is the purpose of the \"takeUnless\" function in Kotlin?</string>
+    <string name="topic6_question31_option1">To execute a block of code on a nullable object</string>
+    <string name="topic6_question31_option2">To initialize the properties of an object</string>
+    <string name="topic6_question31_option3">To define an extension function</string>
+    <string name="topic6_question31_option4">To return the object if it doesn't satisfy the given predicate, otherwise null</string>
+    <string name="topic6_question31_answer">To return the object if it doesn't satisfy the given predicate, otherwise null</string>
+
+    <!-- Topic 6: Kotlin Question 32 -->
+    <string name="topic6_question32">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf("apple", "banana", "cherry")
+\n    val result = list.map { it.capitalize() }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question32_option1">[apple, banana, cherry]</string>
+    <string name="topic6_question32_option2">[Apple, Banana, Cherry]</string>
+    <string name="topic6_question32_option3">[APPLE, BANANA, CHERRY]</string>
+    <string name="topic6_question32_option4">Compilation error</string>
+    <string name="topic6_question32_answer">[Apple, Banana, Cherry]</string>
+
+    <!-- Topic 6: Kotlin Question 33 -->
+    <string name="topic6_question33">What is the purpose of the \"groupBy\" function in Kotlin?</string>
+    <string name="topic6_question33_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question33_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question33_option3">To filter elements of a collection based on a predicate</string>
+    <string name="topic6_question33_option4">To sort elements of a collection in descending order</string>
+    <string name="topic6_question33_answer">To group elements of a collection by a key</string>
+
+    <!-- Topic 6: Kotlin Question 34 -->
+    <string name="topic6_question34">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.filter { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question34_option1">[1, 3, 5]</string>
+    <string name="topic6_question34_option2">[2, 4]</string>
+    <string name="topic6_question34_option3">[1, 2, 3, 4, 5]</string>
+    <string name="topic6_question34_option4">Compilation error</string>
+    <string name="topic6_question34_answer">[2, 4]</string>
+
+    <!-- Topic 6: Kotlin Question 35 -->
+    <string name="topic6_question35">What is the purpose of the \"flatMap\" function in Kotlin?</string>
+    <string name="topic6_question35_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question35_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question35_option3">To filter elements of a collection based on a predicate</string>
+    <string name="topic6_question35_option4">To concatenate the results of applying a transformation function to each element</string>
+    <string name="topic6_question35_answer">To concatenate the results of applying a transformation function to each element</string>
+
+    <!-- Topic 6: Kotlin Question 36 -->
+    <string name="topic6_question36">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.flatMap { listOf(it, it * it) }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question36_option1">[1, 1, 2, 4, 3, 9, 4, 16, 5, 25]</string>
+    <string name="topic6_question36_option2">[1, 2, 3, 4, 5]</string>
+    <string name="topic6_question36_option3">[1, 1, 2, 4, 3, 3, 4, 4, 5, 5]</string>
+    <string name="topic6_question36_option4">Compilation error</string>
+    <string name="topic6_question36_answer">[1, 1, 2, 4, 3, 9, 4, 16, 5, 25]</string>
+
+    <!-- Topic 6: Kotlin Question 37 -->
+    <string name="topic6_question37">What is the purpose of the \"reduce\" function in Kotlin?</string>
+    <string name="topic6_question37_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question37_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question37_option3">To filter elements of a collection based on a predicate</string>
+    <string name="topic6_question37_option4">To perform a binary operation on the elements of a collection</string>
+    <string name="topic6_question37_answer">To perform a binary operation on the elements of a collection</string>
+
+    <!-- Topic 6: Kotlin Question 38 -->
+    <string name="topic6_question38">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.reduce { acc, num -> acc + num }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question38_option1">15</string>
+    <string name="topic6_question38_option2">10</string>
+    <string name="topic6_question38_option3">5</string>
+    <string name="topic6_question38_option4">Compilation error</string>
+    <string name="topic6_question38_answer">15</string>
+
+    <!-- Topic 6: Kotlin Question 39 -->
+    <string name="topic6_question39">What is the purpose of the \"sortedBy\" function in Kotlin?</string>
+    <string name="topic6_question39_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question39_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question39_option3">To filter elements of a collection based on a predicate</string>
+    <string name="topic6_question39_option4">To sort elements of a collection by a specified key</string>
+    <string name="topic6_question39_answer">To sort elements of a collection by a specified key</string>
+
+    <!-- Topic 6: Kotlin Question 40 -->
+    <string name="topic6_question40">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf("banana", "apple", "cherry")
+\n    val result = list.sortedBy { it.length }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question40_option1">[apple, banana, cherry]</string>
+    <string name="topic6_question40_option2">[banana, apple, cherry]</string>
+    <string name="topic6_question40_option3">[cherry, banana, apple]</string>
+    <string name="topic6_question40_option4">Compilation error</string>
+    <string name="topic6_question40_answer">[apple, cherry, banana]</string>
+
+    <!-- Topic 6: Kotlin Question 41 -->
+    <string name="topic6_question41">What is the purpose of the \"sortedDescending\" function in Kotlin?</string>
+    <string name="topic6_question41_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question41_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question41_option3">To sort elements of a collection in descending order</string>
+    <string name="topic6_question41_option4">To filter elements of a collection based on a predicate</string>
+    <string name="topic6_question41_answer">To sort elements of a collection in descending order</string>
+
+    <!-- Topic 6: Kotlin Question 42 -->
+    <string name="topic6_question42">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val map = mapOf(1 to "one", 2 to "two", 3 to "three")
+\n    val result = map.mapKeys { it.key * 2 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question42_option1">{2=one, 4=two, 6=three}</string>
+    <string name="topic6_question42_option2">{1=one, 2=two, 3=three}</string>
+    <string name="topic6_question42_option3">{1=one, 4=two, 9=three}</string>
+    <string name="topic6_question42_option4">Compilation error</string>
+    <string name="topic6_question42_answer">{2=one, 4=two, 6=three}</string>
+
+    <!-- Topic 6: Kotlin Question 43 -->
+    <string name="topic6_question43">What is the purpose of the \"mapNotNull\" function in Kotlin?</string>
+    <string name="topic6_question43_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question43_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question43_option3">To filter out null values from the results of a transformation</string>
+    <string name="topic6_question43_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question43_answer">To filter out null values from the results of a transformation</string>
+
+    <!-- Topic 6: Kotlin Question 44 -->
+    <string name="topic6_question44">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.groupBy { it % 2 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question44_option1">{1=[1, 3, 5], 0=[2, 4]}</string>
+    <string name="topic6_question44_option2">{2=1, 3=1, 4=1, 5=1}</string>
+    <string name="topic6_question44_option3">{1=2, 3=4}</string>
+    <string name="topic6_question44_option4">Compilation error</string>
+    <string name="topic6_question44_answer">{1=[1, 3, 5], 0=[2, 4]}</string>
+
+    <!-- Topic 6: Kotlin Question 45 -->
+    <string name="topic6_question45">What is the purpose of the \"minByOrNull\" function in Kotlin?</string>
+    <string name="topic6_question45_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question45_option2">To find the smallest element in a collection based on a key selector function</string>
+    <string name="topic6_question45_option3">To transform each element of a collection and return the results</string>
+    <string name="topic6_question45_option4">To filter elements of a collection based on a predicate</string>
+    <string name="topic6_question45_answer">To find the smallest element in a collection based on a key selector function</string>
+
+    <!-- Topic 6: Kotlin Question 46 -->
+    <string name="topic6_question46">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.minByOrNull { it }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question46_option1">1</string>
+    <string name="topic6_question46_option2">5</string>
+    <string name="topic6_question46_option3">null</string>
+    <string name="topic6_question46_option4">Compilation error</string>
+    <string name="topic6_question46_answer">1</string>
+
+    <!-- Topic 6: Kotlin Question 47 -->
+    <string name="topic6_question47">What is the purpose of the \"partition\" function in Kotlin?</string>
+    <string name="topic6_question47_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question47_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question47_option3">To split a collection into two based on a predicate</string>
+    <string name="topic6_question47_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question47_answer">To split a collection into two based on a predicate</string>
+
+    <!-- Topic 6: Kotlin Question 48 -->
+    <string name="topic6_question48">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf("apple", "banana", "cherry")
+\n    val result = list.partition { it.length > 5 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question48_option1">([apple, cherry], [banana])</string>
+    <string name="topic6_question48_option2">([banana], [apple, cherry])</string>
+    <string name="topic6_question48_option3">([apple, banana], [cherry])</string>
+    <string name="topic6_question48_option4">Compilation error</string>
+    <string name="topic6_question48_answer">([apple, banana], [cherry])</string>
+
+    <!-- Topic 6: Kotlin Question 49 -->
+    <string name="topic6_question49">What is the purpose of the \"flatMap\" function in Kotlin?</string>
+    <string name="topic6_question49_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question49_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question49_option3">To filter elements of a collection based on a predicate</string>
+    <string name="topic6_question49_option4">To flatten a collection of collections into a single collection</string>
+    <string name="topic6_question49_answer">To flatten a collection of collections into a single collection</string>
+
+    <!-- Topic 6: Kotlin Question 50 -->
+    <string name="topic6_question50">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf("apple", "banana", "cherry")
+\n    val result = list.flatMap { it.toList() }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question50_option1">[a, p, p, l, e, b, a, n, a, n, a, c, h, e, r, r, y]</string>
+    <string name="topic6_question50_option2">[apple, banana, cherry]</string>
+    <string name="topic6_question50_option3">[a, p, p, l, e, b, a, n, a, n, a, c, h, e, r, r, y]</string>
+    <string name="topic6_question50_option4">Compilation error</string>
+    <string name="topic6_question50_answer">[a, p, p, l, e, b, a, n, a, n, a, c, h, e, r, r, y]</string>
+
+    <!-- Topic 6: Kotlin Question 51 -->
+    <string name="topic6_question51">What is the purpose of the \"fold\" function in Kotlin?</string>
+    <string name="topic6_question51_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question51_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question51_option3">To combine the elements of a collection into a single value by applying a transformation and an initial value</string>
+    <string name="topic6_question51_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question51_answer">To combine the elements of a collection into a single value by applying a transformation and an initial value</string>
+
+    <!-- Topic 6: Kotlin Question 52 -->
+    <string name="topic6_question52">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.fold(0) { acc, num -> acc + num }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question52_option1">0</string>
+    <string name="topic6_question52_option2">5</string>
+    <string name="topic6_question52_option3">15</string>
+    <string name="topic6_question52_option4">Compilation error</string>
+    <string name="topic6_question52_answer">15</string>
+
+    <!-- Topic 6: Kotlin Question 53 -->
+    <string name="topic6_question53">What is the purpose of the \"reduce\" function in Kotlin?</string>
+    <string name="topic6_question53_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question53_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question53_option3">To combine the elements of a collection into a single value by applying a transformation</string>
+    <string name="topic6_question53_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question53_answer">To combine the elements of a collection into a single value by applying a transformation</string>
+
+    <!-- Topic 6: Kotlin Question 54 -->
+    <string name="topic6_question54">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.reduce { acc, num -> acc + num }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question54_option1">0</string>
+    <string name="topic6_question54_option2">5</string>
+    <string name="topic6_question54_option3">15</string>
+    <string name="topic6_question54_option4">Compilation error</string>
+    <string name="topic6_question54_answer">15</string>
+
+    <!-- Topic 6: Kotlin Question 55 -->
+    <string name="topic6_question55">What is the purpose of the \"zip\" function in Kotlin?</string>
+    <string name="topic6_question55_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question55_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question55_option3">To combine two collections into a single collection of pairs</string>
+    <string name="topic6_question55_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question55_answer">To combine two collections into a single collection of pairs</string>
+
+    <!-- Topic 6: Kotlin Question 56 -->
+    <string name="topic6_question56">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list1 = listOf("a", "b", "c")
+\n    val list2 = listOf(1, 2, 3)
+\n    val result = list1.zip(list2)
+\n    println(result)
+\n}</string>
+    <string name="topic6_question56_option1">[(a, 1), (b, 2), (c, 3)]</string>
+    <string name="topic6_question56_option2">[a, b, c, 1, 2, 3]</string>
+    <string name="topic6_question56_option3">[(a, 1), (a, 2), (a, 3)]</string>
+    <string name="topic6_question56_option4">Compilation error</string>
+    <string name="topic6_question56_answer">[(a, 1), (b, 2), (c, 3)]</string>
+
+    <!-- Topic 6: Kotlin Question 57 -->
+    <string name="topic6_question57">What is the purpose of the \"associate\" function in Kotlin?</string>
+    <string name="topic6_question57_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question57_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question57_option3">To combine two collections into a single collection of key-value pairs</string>
+    <string name="topic6_question57_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question57_answer">To combine two collections into a single collection of key-value pairs</string>
+
+    <!-- Topic 6: Kotlin Question 58 -->
+    <string name="topic6_question58">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.associate { it to it * 2 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question58_option1">{1=2, 2=4, 3=6, 4=8, 5=10}</string>
+    <string name="topic6_question58_option2">{1=1, 2=2, 3=3, 4=4, 5=5}</string>
+    <string name="topic6_question58_option3">{1=1, 2=2, 3=3, 4=4, 5=5, 2=4, 3=6, 4=8, 5=10}</string>
+    <string name="topic6_question58_option4">Compilation error</string>
+    <string name="topic6_question58_answer">{1=2, 2=4, 3=6, 4=8, 5=10}</string>
+
+    <!-- Topic 6: Kotlin Question 59 -->
+    <string name="topic6_question59">What is the purpose of the \"groupBy\" function in Kotlin?</string>
+    <string name="topic6_question59_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question59_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question59_option3">To combine two collections into a single collection of key-value pairs</string>
+    <string name="topic6_question59_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question59_answer">To group elements of a collection by a key</string>
+
+    <!-- Topic 6: Kotlin Question 60 -->
+    <string name="topic6_question60">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.groupBy { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question60_option1">{false=[1, 3, 5], true=[2, 4]}</string>
+    <string name="topic6_question60_option2">{1=false, 2=true, 3=false, 4=true, 5=false}</string>
+    <string name="topic6_question60_option3">{1=1, 2=2, 3=3, 4=4, 5=5}</string>
+    <string name="topic6_question60_option4">Compilation error</string>
+    <string name="topic6_question60_answer">{false=[1, 3, 5], true=[2, 4]}</string>
+
+    <!-- Topic 6: Kotlin Question 61 -->
+    <string name="topic6_question61">What is the purpose of the \"partition\" function in Kotlin?</string>
+    <string name="topic6_question61_option1">To group elements of a collection by a key</string>
+    <string name="topic6_question61_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question61_option3">To split a collection into two collections based on a predicate</string>
+    <string name="topic6_question61_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question61_answer">To split a collection into two collections based on a predicate</string>
+
+    <!-- Topic 6: Kotlin Question 62 -->
+    <string name="topic6_question62">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.partition { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question62_option1">([1, 3, 5], [2, 4])</string>
+    <string name="topic6_question62_option2">([2, 4], [1, 3, 5])</string>
+    <string name="topic6_question62_option3">([false, false, false, false, false], [true, true])</string>
+    <string name="topic6_question62_option4">Compilation error</string>
+    <string name="topic6_question62_answer">([false, false, false, false, false], [true, true])</string>
+
+    <!-- Topic 6: Kotlin Question 63 -->
+    <string name="topic6_question63">What is the purpose of the \"distinct\" function in Kotlin?</string>
+    <string name="topic6_question63_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question63_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question63_option3">To combine two collections into a single collection</string>
+    <string name="topic6_question63_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question63_answer">To remove duplicate elements from a collection</string>
+
+    <!-- Topic 6: Kotlin Question 64 -->
+    <string name="topic6_question64">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 2, 4, 3, 5)
+\n    val result = list.distinct()
+\n    println(result)
+\n}</string>
+    <string name="topic6_question64_option1">[1, 2, 3, 4, 5]</string>
+    <string name="topic6_question64_option2">[1, 2, 3, 2, 4, 3, 5]</string>
+    <string name="topic6_question64_option3">[1, 1, 2, 2, 3, 3, 4, 4, 5]</string>
+    <string name="topic6_question64_option4">Compilation error</string>
+    <string name="topic6_question64_answer">[1, 2, 3, 4, 5]</string>
+
+    <!-- Topic 6: Kotlin Question 65 -->
+    <string name="topic6_question65">What is the purpose of the \"sorted\" function in Kotlin?</string>
+    <string name="topic6_question65_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question65_option2">To transform each element of a collection and return the results</string>
+    <string name="topic6_question65_option3">To sort elements of a collection in ascending order</string>
+    <string name="topic6_question65_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question65_answer">To sort elements of a collection in ascending order</string>
+
+    <!-- Topic 6: Kotlin Question 66 -->
+    <string name="topic6_question66">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(3, 1, 4, 2, 5)
+\n    val result = list.sorted()
+\n    println(result)
+\n}</string>
+    <string name="topic6_question66_option1">[1, 2, 3, 4, 5]</string>
+    <string name="topic6_question66_option2">[5, 4, 3, 2, 1]</string>
+    <string name="topic6_question66_option3">[3, 1, 4, 2, 5]</string>
+    <string name="topic6_question66_option4">Compilation error</string>
+    <string name="topic6_question66_answer">[1, 2, 3, 4, 5]</string>
+
+    <!-- Topic 6: Kotlin Question 67 -->
+    <string name="topic6_question67">What is the purpose of the \"sortedBy\" function in Kotlin?</string>
+    <string name="topic6_question67_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question67_option2">To sort elements of a collection in ascending order based on a selector function</string>
+    <string name="topic6_question67_option3">To combine two collections into a single collection</string>
+    <string name="topic6_question67_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question67_answer">To sort elements of a collection in ascending order based on a selector function</string>
+
+    <!-- Topic 6: Kotlin Question 68 -->
+    <string name="topic6_question68">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    data class Person(val name: String, val age: Int)
+\n    val list = listOf(Person("Alice", 20), Person("Bob", 25), Person("Charlie", 30))
+\n    val result = list.sortedBy { it.age }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question68_option1">[Person(name=Alice, age=20), Person(name=Bob, age=25), Person(name=Charlie, age=30)]</string>
+    <string name="topic6_question68_option2">[Person(name=Charlie, age=30), Person(name=Bob, age=25), Person(name=Alice, age=20)]</string>
+    <string name="topic6_question68_option3">[Charlie, Bob, Alice]</string>
+    <string name="topic6_question68_option4">Compilation error</string>
+    <string name="topic6_question68_answer">[Person(name=Alice, age=20), Person(name=Bob, age=25), Person(name=Charlie, age=30)]</string>
+
+    <!-- Topic 6: Kotlin Question 69 -->
+    <string name="topic6_question69">What is the purpose of the \"sortedDescending\" function in Kotlin?</string>
+    <string name="topic6_question69_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question69_option2">To sort elements of a collection in descending order</string>
+    <string name="topic6_question69_option3">To sort elements of a collection in ascending order</string>
+    <string name="topic6_question69_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question69_answer">To sort elements of a collection in descending order</string>
+
+    <!-- Topic 6: Kotlin Question 70 -->
+    <string name="topic6_question70">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(3, 1, 4, 2, 5)
+\n    val result = list.sortedDescending()
+\n    println(result)
+\n}</string>
+    <string name="topic6_question70_option1">[1, 2, 3, 4, 5]</string>
+    <string name="topic6_question70_option2">[5, 4, 3, 2, 1]</string>
+    <string name="topic6_question70_option3">[3, 1, 4, 2, 5]</string>
+    <string name="topic6_question70_option4">Compilation error</string>
+    <string name="topic6_question70_answer">[5, 4, 3, 2, 1]</string>
+
+    <!-- Topic 6: Kotlin Question 71 -->
+    <string name="topic6_question71">What is the purpose of the \"sortedByDescending\" function in Kotlin?</string>
+    <string name="topic6_question71_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question71_option2">To sort elements of a collection in descending order based on a selector function</string>
+    <string name="topic6_question71_option3">To combine two collections into a single collection</string>
+    <string name="topic6_question71_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question71_answer">To sort elements of a collection in descending order based on a selector function</string>
+
+    <!-- Topic 6: Kotlin Question 72 -->
+    <string name="topic6_question72">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    data class Person(val name: String, val age: Int)
+\n    val list = listOf(Person("Alice", 20), Person("Bob", 25), Person("Charlie", 30))
+\n    val result = list.sortedByDescending { it.age }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question72_option1">[Person(name=Charlie, age=30), Person(name=Bob, age=25), Person(name=Alice, age=20)]</string>
+    <string name="topic6_question72_option2">[Person(name=Alice, age=20), Person(name=Bob, age=25), Person(name=Charlie, age=30)]</string>
+    <string name="topic6_question72_option3">[Charlie, Bob, Alice]</string>
+    <string name="topic6_question72_option4">Compilation error</string>
+    <string name="topic6_question72_answer">[Person(name=Charlie, age=30), Person(name=Bob, age=25), Person(name=Alice, age=20)]</string>
+
+    <!-- Topic 6: Kotlin Question 73 -->
+    <string name="topic6_question73">What is the purpose of the \"groupBy\" function in Kotlin?</string>
+    <string name="topic6_question73_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question73_option2">To group elements of a collection by a key</string>
+    <string name="topic6_question73_option3">To combine two collections into a single collection</string>
+    <string name="topic6_question73_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question73_answer">To group elements of a collection by a key</string>
+
+    <!-- Topic 6: Kotlin Question 74 -->
+    <string name="topic6_question74">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf("apple", "banana", "grape", "orange", "peach")
+\n    val result = list.groupBy { it.first() }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question74_option1">{a=[apple], b=[banana], g=[grape], o=[orange], p=[peach]}</string>
+    <string name="topic6_question74_option2">{apple=[a], banana=[b], grape=[g], orange=[o], peach=[p]}</string>
+    <string name="topic6_question74_option3">[a=apple, b=banana, g=grape, o=orange, p=peach]</string>
+    <string name="topic6_question74_option4">Compilation error</string>
+    <string name="topic6_question74_answer">{a=[apple], b=[banana], g=[grape], o=[orange], p=[peach]}</string>
+
+    <!-- Topic 6: Kotlin Question 75 -->
+    <string name="topic6_question75">What is the purpose of the \"chunked\" function in Kotlin?</string>
+    <string name="topic6_question75_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question75_option2">To group elements of a collection by a key</string>
+    <string name="topic6_question75_option3">To split a collection into chunks of a specified size</string>
+    <string name="topic6_question75_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question75_answer">To split a collection into chunks of a specified size</string>
+
+    <!-- Topic 6: Kotlin Question 76 -->
+    <string name="topic6_question76">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+\n    val result = list.chunked(3)
+\n    println(result)
+\n}</string>
+    <string name="topic6_question76_option1">[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]</string>
+    <string name="topic6_question76_option2">[[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]</string>
+    <string name="topic6_question76_option3">[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</string>
+    <string name="topic6_question76_option4">Compilation error</string>
+    <string name="topic6_question76_answer">[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]</string>
+
+    <!-- Topic 6: Kotlin Question 77 -->
+    <string name="topic6_question77">What is the purpose of the \"windowed\" function in Kotlin?</string>
+    <string name="topic6_question77_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question77_option2">To group elements of a collection by a key</string>
+    <string name="topic6_question77_option3">To split a collection into chunks of a specified size</string>
+    <string name="topic6_question77_option4">To generate a sliding window over the elements of a collection</string>
+    <string name="topic6_question77_answer">To generate a sliding window over the elements of a collection</string>
+
+    <!-- Topic 6: Kotlin Question 78 -->
+    <string name="topic6_question78">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+\n    val result = list.windowed(3)
+\n    println(result)
+\n}</string>
+    <string name="topic6_question78_option1">[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], [7, 8, 9], [8, 9, 10]]</string>
+    <string name="topic6_question78_option2">[[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]</string>
+    <string name="topic6_question78_option3">[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</string>
+    <string name="topic6_question78_option4">Compilation error</string>
+    <string name="topic6_question78_answer">[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], [7, 8, 9], [8, 9, 10]]</string>
+
+    <!-- Topic 6: Kotlin Question 79 -->
+    <string name="topic6_question79">What is the purpose of the \"zip\" function in Kotlin?</string>
+    <string name="topic6_question79_option1">To remove duplicate elements from a collection</string>
+    <string name="topic6_question79_option2">To combine two collections into a single collection</string>
+    <string name="topic6_question79_option3">To split a collection into chunks of a specified size</string>
+    <string name="topic6_question79_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question79_answer">To combine two collections into a single collection</string>
+
+    <!-- Topic 6: Kotlin Question 80 -->
+    <string name="topic6_question80">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list1 = listOf("a", "b", "c")
+\n    val list2 = listOf(1, 2, 3)
+\n    val result = list1.zip(list2)
+\n    println(result)
+\n}</string>
+    <string name="topic6_question80_option1">[(a, 1), (b, 2), (c, 3)]</string>
+    <string name="topic6_question80_option2">[[a, 1], [b, 2], [c, 3]]</string>
+    <string name="topic6_question80_option3">[(1, a), (2, b), (3, c)]</string>
+    <string name="topic6_question80_option4">Compilation error</string>
+    <string name="topic6_question80_answer">[(a, 1), (b, 2), (c, 3)]</string>
+
+    <!-- Topic 6: Kotlin Question 81 -->
+    <string name="topic6_question81">What is the purpose of the \"all\" function in Kotlin?</string>
+    <string name="topic6_question81_option1">To check if all elements in a collection satisfy a given condition</string>
+    <string name="topic6_question81_option2">To check if any element in a collection satisfies a given condition</string>
+    <string name="topic6_question81_option3">To combine two collections into a single collection</string>
+    <string name="topic6_question81_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question81_answer">To check if all elements in a collection satisfy a given condition</string>
+
+    <!-- Topic 6: Kotlin Question 82 -->
+    <string name="topic6_question82">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.all { it > 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question82_option1">true</string>
+    <string name="topic6_question82_option2">false</string>
+    <string name="topic6_question82_option3">Compilation error</string>
+    <string name="topic6_question82_option4">NoSuchElementException</string>
+    <string name="topic6_question82_answer">true</string>
+
+    <!-- Topic 6: Kotlin Question 83 -->
+    <string name="topic6_question83">What is the purpose of the \"any\" function in Kotlin?</string>
+    <string name="topic6_question83_option1">To check if all elements in a collection satisfy a given condition</string>
+    <string name="topic6_question83_option2">To check if any element in a collection satisfies a given condition</string>
+    <string name="topic6_question83_option3">To combine two collections into a single collection</string>
+    <string name="topic6_question83_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question83_answer">To check if any element in a collection satisfies a given condition</string>
+
+    <!-- Topic 6: Kotlin Question 84 -->
+    <string name="topic6_question84">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.any { it > 3 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question84_option1">true</string>
+    <string name="topic6_question84_option2">false</string>
+    <string name="topic6_question84_option3">Compilation error</string>
+    <string name="topic6_question84_option4">NoSuchElementException</string>
+    <string name="topic6_question84_answer">true</string>
+
+    <!-- Topic 6: Kotlin Question 85 -->
+    <string name="topic6_question85">What is the purpose of the \"none\" function in Kotlin?</string>
+    <string name="topic6_question85_option1">To check if all elements in a collection satisfy a given condition</string>
+    <string name="topic6_question85_option2">To check if none of the elements in a collection satisfy a given condition</string>
+    <string name="topic6_question85_option3">To combine two collections into a single collection</string>
+    <string name="topic6_question85_option4">To sort elements of a collection based on a predicate</string>
+    <string name="topic6_question85_answer">To check if none of the elements in a collection satisfy a given condition</string>
+
+    <!-- Topic 6: Kotlin Question 86 -->
+    <string name="topic6_question86">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.none { it > 5 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question86_option1">true</string>
+    <string name="topic6_question86_option2">false</string>
+    <string name="topic6_question86_option3">Compilation error</string>
+    <string name="topic6_question86_option4">NoSuchElementException</string>
+    <string name="topic6_question86_answer">true</string>
+
+    <!-- Topic 6: Kotlin Question 87 -->
+    <string name="topic6_question87">What is the purpose of the \"count\" function in Kotlin?</string>
+    <string name="topic6_question87_option1">To count the number of elements in a collection</string>
+    <string name="topic6_question87_option2">To sum up all elements in a collection</string>
+    <string name="topic6_question87_option3">To filter elements in a collection based on a predicate</string>
+    <string name="topic6_question87_option4">To check if any element in a collection satisfies a given condition</string>
+    <string name="topic6_question87_answer">To count the number of elements in a collection</string>
+
+    <!-- Topic 6: Kotlin Question 88 -->
+    <string name="topic6_question88">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.count { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question88_option1">1</string>
+    <string name="topic6_question88_option2">2</string>
+    <string name="topic6_question88_option3">3</string>
+    <string name="topic6_question88_option4">5</string>
+    <string name="topic6_question88_answer">2</string>
+
+    <!-- Topic 6: Kotlin Question 89 -->
+    <string name="topic6_question89">What is the purpose of the \"sumBy\" function in Kotlin?</string>
+    <string name="topic6_question89_option1">To count the number of elements in a collection</string>
+    <string name="topic6_question89_option2">To sum up all elements in a collection</string>
+    <string name="topic6_question89_option3">To filter elements in a collection based on a predicate</string>
+    <string name="topic6_question89_option4">To transform each element in a collection and then sum the results</string>
+    <string name="topic6_question89_answer">To transform each element in a collection and then sum the results</string>
+
+    <!-- Topic 6: Kotlin Question 90 -->
+    <string name="topic6_question90">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.sumBy { it * 2 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question90_option1">20</string>
+    <string name="topic6_question90_option2">25</string>
+    <string name="topic6_question90_option3">30</string>
+    <string name="topic6_question90_option4">35</string>
+    <string name="topic6_question90_answer">30</string>
+
+    <!-- Topic 6: Kotlin Question 91 -->
+    <string name="topic6_question91">What is the purpose of the \"groupBy\" function in Kotlin?</string>
+    <string name="topic6_question91_option1">To count the number of elements in a collection</string>
+    <string name="topic6_question91_option2">To group elements in a collection based on a key</string>
+    <string name="topic6_question91_option3">To filter elements in a collection based on a predicate</string>
+    <string name="topic6_question91_option4">To sort elements in a collection</string>
+    <string name="topic6_question91_answer">To group elements in a collection based on a key</string>
+
+    <!-- Topic 6: Kotlin Question 92 -->
+    <string name="topic6_question92">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.groupBy { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question92_option1">{false=[1, 3, 5], true=[2, 4]}</string>
+    <string name="topic6_question92_option2">{true=[1, 3, 5], false=[2, 4]}</string>
+    <string name="topic6_question92_option3">{1=[false, true], 2=[false, true], 3=[false, true], 4=[false, true], 5=[false, true]}</string>
+    <string name="topic6_question92_option4">{false=[2, 4], true=[1, 3, 5]}</string>
+    <string name="topic6_question92_answer">{false=[1, 3, 5], true=[2, 4]}</string>
+
+    <!-- Topic 6: Kotlin Question 93 -->
+    <string name="topic6_question93">What is the purpose of the \"associateBy\" function in Kotlin?</string>
+    <string name="topic6_question93_option1">To count the number of elements in a collection</string>
+    <string name="topic6_question93_option2">To group elements in a collection based on a key</string>
+    <string name="topic6_question93_option3">To filter elements in a collection based on a predicate</string>
+    <string name="topic6_question93_option4">To transform each element in a collection and then associate it with a key</string>
+    <string name="topic6_question93_answer">To transform each element in a collection and then associate it with a key</string>
+
+    <!-- Topic 6: Kotlin Question 94 -->
+    <string name="topic6_question94">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf("apple", "banana", "cherry")
+\n    val result = list.associateBy { it.first().toUpperCase() }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question94_option1">{A=apple, B=banana, C=cherry}</string>
+    <string name="topic6_question94_option2">{a=apple, b=banana, c=cherry}</string>
+    <string name="topic6_question94_option3">{a=Apple, b=Banana, c=Cherry}</string>
+    <string name="topic6_question94_option4">{A=Apple, B=Banana, C=Cherry}</string>
+    <string name="topic6_question94_answer">{A=apple, B=banana, C=cherry}</string>
+
+    <!-- Topic 6: Kotlin Question 95 -->
+    <string name="topic6_question95">What is the purpose of the \"partition\" function in Kotlin?</string>
+    <string name="topic6_question95_option1">To count the number of elements in a collection</string>
+    <string name="topic6_question95_option2">To split a collection into two based on a predicate</string>
+    <string name="topic6_question95_option3">To filter elements in a collection based on a predicate</string>
+    <string name="topic6_question95_option4">To transform each element in a collection and then split the results</string>
+    <string name="topic6_question95_answer">To split a collection into two based on a predicate</string>
+
+    <!-- Topic 6: Kotlin Question 96 -->
+    <string name="topic6_question96">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(1, 2, 3, 4, 5)
+\n    val result = list.partition { it % 2 == 0 }
+\n    println(result)
+\n}</string>
+    <string name="topic6_question96_option1">([2, 4], [1, 3, 5])</string>
+    <string name="topic6_question96_option2">([1, 3, 5], [2, 4])</string>
+    <string name="topic6_question96_option3">([1, 2, 3, 4, 5], [])</string>
+    <string name="topic6_question96_option4">([2, 4], [2, 4])</string>
+    <string name="topic6_question96_answer">([2, 4], [1, 3, 5])</string>
+
+    <!-- Topic 6: Kotlin Question 97 -->
+    <string name="topic6_question97">What is the purpose of the \"zip\" function in Kotlin?</string>
+    <string name="topic6_question97_option1">To count the number of elements in a collection</string>
+    <string name="topic6_question97_option2">To merge two collections into a single collection</string>
+    <string name="topic6_question97_option3">To filter elements in a collection based on a predicate</string>
+    <string name="topic6_question97_option4">To transform each element in a collection and then merge the results</string>
+    <string name="topic6_question97_answer">To merge two collections into a single collection</string>
+
+    <!-- Topic 6: Kotlin Question 98 -->
+    <string name="topic6_question98">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list1 = listOf("a", "b", "c")
+\n    val list2 = listOf(1, 2, 3)
+\n    val result = list1.zip(list2)
+\n    println(result)
+\n}</string>
+    <string name="topic6_question98_option1">[(a, 1), (b, 2), (c, 3)]</string>
+    <string name="topic6_question98_option2">[(1, a), (2, b), (3, c)]</string>
+    <string name="topic6_question98_option3">[(a, 1), (a, 2), (a, 3)]</string>
+    <string name="topic6_question98_option4">[(1, a), (1, b), (1, c)]</string>
+    <string name="topic6_question98_answer">[(a, 1), (b, 2), (c, 3)]</string>
+
+    <!-- Topic 6: Kotlin Question 99 -->
+    <string name="topic6_question99">What is the purpose of the \"unzip\" function in Kotlin?</string>
+    <string name="topic6_question99_option1">To count the number of elements in a collection</string>
+    <string name="topic6_question99_option2">To split a collection of pairs into two separate collections</string>
+    <string name="topic6_question99_option3">To filter elements in a collection based on a predicate</string>
+    <string name="topic6_question99_option4">To transform each element in a collection and then split the results</string>
+    <string name="topic6_question99_answer">To split a collection of pairs into two separate collections</string>
+
+    <!-- Topic 6: Kotlin Question 100 -->
+    <string name="topic6_question100">What is the output of the following Kotlin code snippet?
+\n\nfun main() {
+\n    val list = listOf(Pair("a", 1), Pair("b", 2), Pair("c", 3))
+\n    val (letters, numbers) = list.unzip()
+\n    println("Letters: $letters")
+\n    println("Numbers: $numbers")
+\n}</string>
+    <string name="topic6_question100_option1">Letters: [a, b, c]
+Numbers: [1, 2, 3]</string>
+    <string name="topic6_question100_option2">Letters: [1, 2, 3]
+Numbers: [a, b, c]</string>
+    <string name="topic6_question100_option3">Letters: [a, b, c]
+Numbers: [a, b, c]</string>
+    <string name="topic6_question100_option4">Letters: [1, 2, 3]
+Numbers: [1, 2, 3]</string>
+    <string name="topic6_question100_answer">Letters: [a, b, c]
+Numbers: [1, 2, 3]</string>
+
+
+
+
 
     <!--    C++-->
-    <string name="topic7_question1">What is the correct syntax for declaring a variable in C++?</string>
-    <string name="topic7_question2">How do you initialize an array C++ with 5 elements of value O?</string>
-    <string name="topic7_question3">What does the \'cin\' object in C++ handle?</string>
-    <string name="topic7_question4">Which C++ keyword is used to dynamically allocate memory?</string>
-    <string name="topic7_question5">What is the purpose of the \'break\' statement in a switch statement?</string>
-    <string name="topic7_question6">How is a reference variable declared in C++?</string>
-    <string name="topic7_question7">What is the output of the following code snippet?
-    \n\nint x = 5;
-    \ncout &lt;&lt; ++x + x++ >> </string>
-    <string name="topic7_question8">In C++, how do you open a file named "example.txt" for writing??</string>
-    <string name="topic7_question9">What is the purpose of the \'const\' keyword in C++?</string>
-    <string name="topic7_question10">Which C++ loop is guaranteed to execute at least once?</string>
 
+    <!--    <string name="topic7_question1">What is the correct syntax for declaring a variable in C++?</string>-->
+    <!--    <string name="topic7_question2">How do you initialize an array C++ with 5 elements of value O?</string>-->
+    <!--    <string name="topic7_question3">What does the \'cin\' object in C++ handle?</string>-->
+    <!--    <string name="topic7_question4">Which C++ keyword is used to dynamically allocate memory?</string>-->
+    <!--    <string name="topic7_question5">What is the purpose of the \'break\' statement in a switch statement?</string>-->
+    <!--    <string name="topic7_question6">How is a reference variable declared in C++?</string>-->
+    <!--    <string name="topic7_question7">What is the output of the following code snippet?-->
+    <!--    \n\nint x = 5;-->
+    <!--    \ncout &lt;&lt; ++x + x++ >> </string>-->
+    <!--    <string name="topic7_question8">In C++, how do you open a file named "example.txt" for writing??</string>-->
+    <!--    <string name="topic7_question9">What is the purpose of the \'const\' keyword in C++?</string>-->
+    <!--    <string name="topic7_question10">Which C++ loop is guaranteed to execute at least once?</string>-->
+    <!--    <string name="topic7_question11">What is the purpose of the \'endl\' in C++?</string>-->
+    <!--    <string name="topic7_question12">How do you declare a function in C++ that takes two integers as parameters and returns their sum?</string>-->
+    <!--    <string name="topic7_question13">In C++, what is the purpose of the \'static\' keyword when used with a variable?</string>-->
+    <!--    <string name="topic7_question14">What is the size of the \'int\' data type in C++?</string>-->
+    <!--    <string name="topic7_question15">How do you access the first element of an array named \'myArray\' in C++?</string>-->
+    <!--    <string name="topic7_question16">What is the purpose of the \'virtual\' keyword in C++ when used with a function in a base class?</string>-->
+    <!--    <string name="topic7_question17">What is the scope resolution operator in C++?</string>-->
+    <!--    <string name="topic7_question18">How do you comment a single line in C++?</string>-->
+    <!--    <string name="topic7_question19">What does the \'sizeof\' operator in C++ return?</string>-->
+    <!--    <string name="topic7_question20">What is the purpose of the \'try\', \'catch\', and \'throw\' keywords in C++?</string>-->
+
+    <!-- Question 1 -->
+    <string name="topic7_question1">What is the correct syntax for declaring a variable in C++?</string>
+    <string name="topic7_question1_option1">var x;</string>
+    <string name="topic7_question1_option2">variable x;</string>
+    <string name="topic7_question1_option3">int x;</string>
+    <string name="topic7_question1_option4">x = int;</string>
+    <string name="topic7_question1_answer">int x;</string>
+
+    <!-- Question 2 -->
+    <string name="topic7_question2">How do you initialize an array in C++ with 5 elements of value 0?</string>
+    <string name="topic7_question2_option1">int arr[5] = {0};</string>
+    <string name="topic7_question2_option2">int arr[] = {0, 0, 0, 0, 0};</string>
+    <string name="topic7_question2_option3">int arr[5] = {1};</string>
+    <string name="topic7_question2_option4">int arr[5] = 0;</string>
+    <string name="topic7_question2_answer">int arr[5] = {0};</string>
+
+    <!-- Question 3 -->
+    <string name="topic7_question3">What does the \'cin\' object in C++ handle?</string>
+    <string name="topic7_question3_option1">File operations</string>
+    <string name="topic7_question3_option2">Error handling</string>
+    <string name="topic7_question3_option3">Output</string>
+    <string name="topic7_question3_option4">Input</string>
+    <string name="topic7_question3_answer">Input</string>
+
+    <!-- Question 4 -->
+    <string name="topic7_question4">Which C++ keyword is used to dynamically allocate memory?</string>
+    <string name="topic7_question4_option1">alloc</string>
+    <string name="topic7_question4_option2">malloc</string>
+    <string name="topic7_question4_option3">new</string>
+    <string name="topic7_question4_option4">allocate</string>
+    <string name="topic7_question4_answer">new</string>
+
+    <!-- Question 5 -->
+    <string name="topic7_question5">What is the purpose of the \'break\' statement in a switch statement?</string>
+    <string name="topic7_question5_option1">Terminate the program</string>
+    <string name="topic7_question5_option2">Skip the next iteration</string>
+    <string name="topic7_question5_option3">Exit the loop</string>
+    <string name="topic7_question5_option4">Exit the switch statement</string>
+    <string name="topic7_question5_answer">Exit the switch statement</string>
+
+    <!-- Question 6 -->
+    <string name="topic7_question6">How is a reference variable declared in C++?</string>
+    <string name="topic7_question6_option1">int &amp;x = y;</string>
+    <string name="topic7_question6_option2">ref int x = y;</string>
+    <string name="topic7_question6_option3">ref x = y;</string>
+    <string name="topic7_question6_option4"><![CDATA[int *x = & y;]]></string>
+    <string name="topic7_question6_answer">int &amp;x = y;</string>
+
+    <!-- Question 7 -->
+    <string name="topic7_question7">What is the output of the following code snippet?
+\n\nint x = 5;
+\ncout &lt;&lt; ++x + x++ >></string>
+    <string name="topic7_question7_option1">11</string>
+    <string name="topic7_question7_option2">12</string>
+    <string name="topic7_question7_option3">13</string>
+    <string name="topic7_question7_option4">14</string>
+    <string name="topic7_question7_answer">14</string>
+
+    <!-- Question 8 -->
+    <string name="topic7_question8">In C++, how do you open a file named "example.txt" for writing?</string>
+    <string name="topic7_question8_option1">ofstream file("example.txt");</string>
+    <string name="topic7_question8_option2">file.open("example.txt");</string>
+    <string name="topic7_question8_option3">file.open("example.txt", "w");</string>
+    <string name="topic7_question8_option4">ifstream file("example.txt");</string>
+    <string name="topic7_question8_answer">ofstream file("example.txt");</string>
+
+    <!-- Question 9 -->
+    <string name="topic7_question9">What is the purpose of the \'const\' keyword in C++?</string>
+    <string name="topic7_question9_option1">Declare a variable with a constant value</string>
+    <string name="topic7_question9_option2">Declare a constant variable</string>
+    <string name="topic7_question9_option3">Specify a constant class</string>
+    <string name="topic7_question9_option4">Create a constant function</string>
+    <string name="topic7_question9_answer">Declare a constant variable</string>
+
+    <!-- Question 10 -->
+    <string name="topic7_question10">Which C++ loop is guaranteed to execute at least once?</string>
+    <string name="topic7_question10_option1">for loop</string>
+    <string name="topic7_question10_option2">while loop</string>
+    <string name="topic7_question10_option3">do-while loop</string>
+    <string name="topic7_question10_option4">switch loop</string>
+    <string name="topic7_question10_answer">do-while loop</string>
+
+    <!-- Question 11 -->
     <string name="topic7_question11">What is the purpose of the \'endl\' in C++?</string>
+    <string name="topic7_question11_option1">End the program</string>
+    <string name="topic7_question11_option2">Insert a newline character</string>
+    <string name="topic7_question11_option3">Declare the end of a loop</string>
+    <string name="topic7_question11_option4">Indicate the end of a function</string>
+    <string name="topic7_question11_answer">Insert a newline character</string>
+
+    <!-- Question 12 -->
     <string name="topic7_question12">How do you declare a function in C++ that takes two integers as parameters and returns their sum?</string>
+    <string name="topic7_question12_option1">int sum(int a, b);</string>
+    <string name="topic7_question12_option2">int add(int a, int b);</string>
+    <string name="topic7_question12_option3">sum(int a, int b);</string>
+    <string name="topic7_question12_option4">add(int a, b)</string>
+    <string name="topic7_question12_answer">int add(int a, int b);</string>
+
+    <!-- Question 13 -->
     <string name="topic7_question13">In C++, what is the purpose of the \'static\' keyword when used with a variable?</string>
+    <string name="topic7_question13_option1">Declare a constant variable</string>
+    <string name="topic7_question13_option2">Allocate memory dynamically</string>
+    <string name="topic7_question13_option3">Specify internal linkage</string>
+    <string name="topic7_question13_option4">Indicate the end of a program</string>
+    <string name="topic7_question13_answer">Specify internal linkage</string>
+
+    <!-- Question 14 -->
     <string name="topic7_question14">What is the size of the \'int\' data type in C++?</string>
+    <string name="topic7_question14_option1">2 bytes</string>
+    <string name="topic7_question14_option2">4 bytes</string>
+    <string name="topic7_question14_option3">8 bytes</string>
+    <string name="topic7_question14_option4">Depends on the compiler</string>
+    <string name="topic7_question14_answer">4 bytes</string>
+
+    <!-- Question 15 -->
     <string name="topic7_question15">How do you access the first element of an array named \'myArray\' in C++?</string>
+    <string name="topic7_question15_option1">myArray[0]</string>
+    <string name="topic7_question15_option2">myArray.first()</string>
+    <string name="topic7_question15_option3">myArray(1)</string>
+    <string name="topic7_question15_option4">first(myArray)</string>
+    <string name="topic7_question15_answer">myArray[0]</string>
+
+    <!-- Question 16 -->
     <string name="topic7_question16">What is the purpose of the \'virtual\' keyword in C++ when used with a function in a base class?</string>
+    <string name="topic7_question16_option1">Define a pure virtual method</string>
+    <string name="topic7_question16_option2">Specify the function as static</string>
+    <string name="topic7_question16_option3">Enable function overloading</string>
+    <string name="topic7_question16_option4">Allow function overriding in derived classes</string>
+    <string name="topic7_question16_answer">Allow function overriding in derived classes</string>
+
+    <!-- Question 17 -->
     <string name="topic7_question17">What is the scope resolution operator in C++?</string>
+    <string name="topic7_question17_option1">::</string>
+    <string name="topic7_question17_option2">//</string>
+    <string name="topic7_question17_option3">--</string>
+    <string name="topic7_question17_option4">-&gt;</string>
+    <string name="topic7_question17_answer">::</string>
+
+    <!-- Question 18 -->
     <string name="topic7_question18">How do you comment a single line in C++?</string>
+    <string name="topic7_question18_option1">/* comment */</string>
+    <string name="topic7_question18_option2"># comment</string>
+    <string name="topic7_question18_option3">// comment</string>
+    <string name="topic7_question18_option4">-- comment</string>
+    <string name="topic7_question18_answer">// comment</string>
+
+    <!-- Question 19 -->
     <string name="topic7_question19">What does the \'sizeof\' operator in C++ return?</string>
+    <string name="topic7_question19_option1">Value of the variable</string>
+    <string name="topic7_question19_option2">Memory address of the variable</string>
+    <string name="topic7_question19_option3">Size of the variable in bytes</string>
+    <string name="topic7_question19_option4">Type of the variable</string>
+    <string name="topic7_question19_answer">Size of the variable in bytes</string>
+
+    <!-- Question 20 -->
     <string name="topic7_question20">What is the purpose of the \'try\', \'catch\', and \'throw\' keywords in C++?</string>
+    <string name="topic7_question20_option1">Memory location</string>
+    <string name="topic7_question20_option2">File handling</string>
+    <string name="topic7_question20_option3">Exception handling</string>
+    <string name="topic7_question20_option4">Loop control structures</string>
+    <string name="topic7_question20_answer">Exception handling</string>
+
+    <!-- Question 21 -->
+    <string name="topic7_question21">In C++, how do you declare an array with 5 elements of type int?</string>
+    <string name="topic7_question21_option1">int arr[5] = {0};</string>
+    <string name="topic7_question21_option2">int arr[] = {0, 0, 0, 0, 0};</string>
+    <string name="topic7_question21_option3">int arr[5] = {1};</string>
+    <string name="topic7_question21_option4">int arr[5] = 0;</string>
+    <string name="topic7_question21_answer">int arr[] = {0, 0, 0, 0, 0};</string>
+
+    <!-- Question 22 -->
+    <string name="topic7_question22">What does the \'cin\' object in C++ handle?</string>
+    <string name="topic7_question22_option1">File operations</string>
+    <string name="topic7_question22_option2">Error handling</string>
+    <string name="topic7_question22_option3">Output</string>
+    <string name="topic7_question22_option4">Input</string>
+    <string name="topic7_question22_answer">Input</string>
+
+    <!-- Question 23 -->
+    <string name="topic7_question23">Which C++ keyword is used to dynamically allocate memory?</string>
+    <string name="topic7_question23_option1">alloc</string>
+    <string name="topic7_question23_option2">malloc</string>
+    <string name="topic7_question23_option3">new</string>
+    <string name="topic7_question23_option4">allocate</string>
+    <string name="topic7_question23_answer">new</string>
+
+    <!-- Question 24 -->
+    <string name="topic7_question24">What is the purpose of the \'break\' statement in a switch statement?</string>
+    <string name="topic7_question24_option1">Terminate the program</string>
+    <string name="topic7_question24_option2">Skip the next iteration</string>
+    <string name="topic7_question24_option3">Exit the loop</string>
+    <string name="topic7_question24_option4">Exit the switch statement</string>
+    <string name="topic7_question24_answer">Exit the switch statement</string>
+
+    <!-- Question 25 -->
+    <string name="topic7_question25">How is a reference variable declared in C++?</string>
+    <string name="topic7_question25_option1">int &amp;x = y;</string>
+    <string name="topic7_question25_option2">ref int x = y;</string>
+    <string name="topic7_question25_option3">ref x = y;</string>
+    <string name="topic7_question25_option4"><![CDATA[int *x = ]]>&amp; y;</string>
+    <string name="topic7_question25_answer">int &amp;x = y;</string>
+
+    <!-- Question 26 -->
+    <string name="topic7_question26">What is the output of the following code snippet?
+\n\nint x = 5;
+\ncout &lt;&lt; ++x + x++ >></string>
+    <string name="topic7_question26_option1">11</string>
+    <string name="topic7_question26_option2">12</string>
+    <string name="topic7_question26_option3">13</string>
+    <string name="topic7_question26_option4">14</string>
+    <string name="topic7_question26_answer">14</string>
+
+    <!-- Question 27 -->
+    <string name="topic7_question27">In C++, how do you open a file named "example.txt" for writing?</string>
+    <string name="topic7_question27_option1">ofstream file(\"example.txt\");</string>
+    <string name="topic7_question27_option2">file.open(\"example.txt\");</string>
+    <string name="topic7_question27_option3">file.open(\"example.txt\", \"w\");</string>
+    <string name="topic7_question27_option4">ifstream file(\"example.txt\");</string>
+    <string name="topic7_question27_answer">ofstream file(\"example.txt\");</string>
+
+    <!-- Question 28 -->
+    <string name="topic7_question28">What is the purpose of the \'const\' keyword in C++?</string>
+    <string name="topic7_question28_option1">Declare a variable with a constant value</string>
+    <string name="topic7_question28_option2">Declare a constant variable</string>
+    <string name="topic7_question28_option3">Specify a constant class</string>
+    <string name="topic7_question28_option4">Create a constant function</string>
+    <string name="topic7_question28_answer">Declare a constant variable</string>
+
+    <!-- Question 29 -->
+    <string name="topic7_question29">Which C++ loop is guaranteed to execute at least once?</string>
+    <string name="topic7_question29_option1">for loop</string>
+    <string name="topic7_question29_option2">while loop</string>
+    <string name="topic7_question29_option3">do-while loop</string>
+    <string name="topic7_question29_option4">switch loop</string>
+    <string name="topic7_question29_answer">do-while loop</string>
+
+    <!-- Question 30 -->
+    <string name="topic7_question30">What is the purpose of the \'newline\' character in C++?</string>
+    <string name="topic7_question30_option1">End the program</string>
+    <string name="topic7_question30_option2">Insert a newline character</string>
+    <string name="topic7_question30_option3">Declare the end of a loop</string>
+    <string name="topic7_question30_option4">Indicate the end of a function</string>
+    <string name="topic7_question30_answer">Insert a newline character</string>
+
+    <!-- Question 31 -->
+    <string name="topic7_question31">How do you declare a function in C++ that takes two integers as parameters and returns their sum?</string>
+    <string name="topic7_question31_option1">int sum(int a, b);</string>
+    <string name="topic7_question31_option2">int add(int a, int b);</string>
+    <string name="topic7_question31_option3">sum(int a, int b);</string>
+    <string name="topic7_question31_option4">add(int a, b)</string>
+    <string name="topic7_question31_answer">int add(int a, int b);</string>
+
+    <!-- Question 32 -->
+    <string name="topic7_question32">In C++, what is the purpose of the \'static\' keyword when used with a variable?</string>
+    <string name="topic7_question32_option1">Declare a constant variable</string>
+    <string name="topic7_question32_option2">Allocate memory dynamically</string>
+    <string name="topic7_question32_option3">Specify internal linkage</string>
+    <string name="topic7_question32_option4">Indicate the end of a program</string>
+    <string name="topic7_question32_answer">Specify internal linkage</string>
+
+    <!-- Question 33 -->
+    <string name="topic7_question33">What is the size of the \'int\' data type in C++?</string>
+    <string name="topic7_question33_option1">2 bytes</string>
+    <string name="topic7_question33_option2">4 bytes</string>
+    <string name="topic7_question33_option3">8 bytes</string>
+    <string name="topic7_question33_option4">Depends on the compiler</string>
+    <string name="topic7_question33_answer">4 bytes</string>
+
+    <!-- Question 34 -->
+    <string name="topic7_question34">How do you access the first element of an array named \'myArray\' in C++?</string>
+    <string name="topic7_question34_option1">myArray[0]</string>
+    <string name="topic7_question34_option2">myArray.first()</string>
+    <string name="topic7_question34_option3">myArray(1)</string>
+    <string name="topic7_question34_option4">first(myArray)</string>
+    <string name="topic7_question34_answer">myArray[0]</string>
+
+    <!-- Question 35 -->
+    <string name="topic7_question35">What is the purpose of the \'virtual\' keyword in C++ when used with a function in a base class?</string>
+    <string name="topic7_question35_option1">Define a pure virtual method</string>
+    <string name="topic7_question35_option2">Specify the function as static</string>
+    <string name="topic7_question35_option3">Enable function overloading</string>
+    <string name="topic7_question35_option4">Allow function overriding in derived classes</string>
+    <string name="topic7_question35_answer">Allow function overriding in derived classes</string>
+
+    <!-- Question 36 -->
+    <string name="topic7_question36">What is the scope resolution operator in C++?</string>
+    <string name="topic7_question36_option1">::</string>
+    <string name="topic7_question36_option2">//</string>
+    <string name="topic7_question36_option3">--</string>
+    <string name="topic7_question36_option4">-&gt;</string>
+    <string name="topic7_question36_answer">::</string>
+
+    <!-- Question 37 -->
+    <string name="topic7_question37">How do you comment a single line in C++?</string>
+    <string name="topic7_question37_option1">/* comment */</string>
+    <string name="topic7_question37_option2"># comment</string>
+    <string name="topic7_question37_option3">// comment</string>
+    <string name="topic7_question37_option4">-- comment</string>
+    <string name="topic7_question37_answer">// comment</string>
+
+    <!-- Question 38 -->
+    <string name="topic7_question38">What does the \'sizeof\' operator in C++ return?</string>
+    <string name="topic7_question38_option1">Value of the variable</string>
+    <string name="topic7_question38_option2">Memory address of the variable</string>
+    <string name="topic7_question38_option3">Size of the variable in bytes</string>
+    <string name="topic7_question38_option4">Type of the variable</string>
+    <string name="topic7_question38_answer">Size of the variable in bytes</string>
+
+    <!-- Question 39 -->
+    <string name="topic7_question39">What is the purpose of the \'try\', \'catch\', and \'throw\' keywords in C++?</string>
+    <string name="topic7_question39_option1">Memory location</string>
+    <string name="topic7_question39_option2">File handling</string>
+    <string name="topic7_question39_option3">Exception handling</string>
+    <string name="topic7_question39_option4">Loop control structures</string>
+    <string name="topic7_question39_answer">Exception handling</string>
+
+    <!-- Question 40 -->
+    <string name="topic7_question40">In C++, how do you declare an array with 5 elements of type int?</string>
+    <string name="topic7_question40_option1">int arr[5] = {0};</string>
+    <string name="topic7_question40_option2">int arr[] = {0, 0, 0, 0, 0};</string>
+    <string name="topic7_question40_option3">int arr[5] = {1};</string>
+    <string name="topic7_question40_option4">int arr[5] = 0;</string>
+    <string name="topic7_question40_answer">int arr[] = {0, 0, 0, 0, 0};</string>
+
+    <!-- Question 41 -->
+    <string name="topic7_question41">What does the \'cin\' object in C++ handle?</string>
+    <string name="topic7_question41_option1">File operations</string>
+    <string name="topic7_question41_option2">Error handling</string>
+    <string name="topic7_question41_option3">Output</string>
+    <string name="topic7_question41_option4">Input</string>
+    <string name="topic7_question41_answer">Input</string>
+
+    <!-- Question 42 -->
+    <string name="topic7_question42">Which C++ keyword is used to dynamically allocate memory?</string>
+    <string name="topic7_question42_option1">alloc</string>
+    <string name="topic7_question42_option2">malloc</string>
+    <string name="topic7_question42_option3">new</string>
+    <string name="topic7_question42_option4">allocate</string>
+    <string name="topic7_question42_answer">new</string>
+
+    <!-- Question 43 -->
+    <string name="topic7_question43">What is the purpose of the \'break\' statement in a switch statement?</string>
+    <string name="topic7_question43_option1">Terminate the program</string>
+    <string name="topic7_question43_option2">Skip the next iteration</string>
+    <string name="topic7_question43_option3">Exit the loop</string>
+    <string name="topic7_question43_option4">Exit the switch statement</string>
+    <string name="topic7_question43_answer">Exit the switch statement</string>
+
+    <!-- Question 44 -->
+    <string name="topic7_question44">How is a reference variable declared in C++?</string>
+    <string name="topic7_question44_option1">int &amp;x = y;</string>
+    <string name="topic7_question44_option2">ref int x = y;</string>
+    <string name="topic7_question44_option3">ref x = y;</string>
+    <string name="topic7_question44_option4">int *x = &amp;y;</string>
+    <string name="topic7_question44_answer">int &amp;x = y;</string>
+
+    <!-- Question 45 -->
+    <string name="topic7_question45">What is the output of the following code snippet?
+\n\nint x = 5;
+\ncout &lt;&lt; ++x + x++ &gt;&gt;</string>
+    <string name="topic7_question45_option1">11</string>
+    <string name="topic7_question45_option2">12</string>
+    <string name="topic7_question45_option3">13</string>
+    <string name="topic7_question45_option4">14</string>
+    <string name="topic7_question45_answer">14</string>
+
+    <!-- Question 46 -->
+    <string name="topic7_question46">In C++, how do you open a file named "example.txt" for writing?</string>
+    <string name="topic7_question46_option1">ofstream file(\"example.txt\");</string>
+    <string name="topic7_question46_option2">file.open(\"example.txt\");</string>
+    <string name="topic7_question46_option3">file.open(\"example.txt\", \"w\");</string>
+    <string name="topic7_question46_option4">ifstream file(\"example.txt\");</string>
+    <string name="topic7_question46_answer">ofstream file(\"example.txt\");</string>
+
+    <!-- Question 47 -->
+    <string name="topic7_question47">What is the purpose of the \'const\' keyword in C++?</string>
+    <string name="topic7_question47_option1">Declare a variable with a constant value</string>
+    <string name="topic7_question47_option2">Declare a constant variable</string>
+    <string name="topic7_question47_option3">Specify a constant class</string>
+    <string name="topic7_question47_option4">Create a constant function</string>
+    <string name="topic7_question47_answer">Declare a constant variable</string>
+
+    <!-- Question 48 -->
+    <string name="topic7_question48">Which C++ loop is guaranteed to execute at least once?</string>
+    <string name="topic7_question48_option1">for loop</string>
+    <string name="topic7_question48_option2">while loop</string>
+    <string name="topic7_question48_option3">do-while loop</string>
+    <string name="topic7_question48_option4">switch loop</string>
+    <string name="topic7_question48_answer">do-while loop</string>
+
+    <!-- Question 49 -->
+    <string name="topic7_question49">What is the purpose of the \'newline\' character in C++?</string>
+    <string name="topic7_question49_option1">End the program</string>
+    <string name="topic7_question49_option2">Insert a newline character</string>
+    <string name="topic7_question49_option3">Declare the end of a loop</string>
+    <string name="topic7_question49_option4">Indicate the end of a function</string>
+    <string name="topic7_question49_answer">Insert a newline character</string>
+
+    <!-- Question 50 -->
+    <string name="topic7_question50">How do you declare a function in C++ that takes two integers as parameters and returns their sum?</string>
+    <string name="topic7_question50_option1">int sum(int a, b);</string>
+    <string name="topic7_question50_option2">int add(int a, int b);</string>
+    <string name="topic7_question50_option3">sum(int a, int b);</string>
+    <string name="topic7_question50_option4">add(int a, b)</string>
+    <string name="topic7_question50_answer">int add(int a, int b);</string>
+
+    <!-- Question 51 -->
+    <string name="topic7_question51">In C++, how do you declare an array with 5 elements of type float?</string>
+    <string name="topic7_question51_option1">float arr[5] = {0};</string>
+    <string name="topic7_question51_option2">float arr[] = {0.0, 0.0, 0.0, 0.0, 0.0};</string>
+    <string name="topic7_question51_option3">float arr[5] = {1};</string>
+    <string name="topic7_question51_option4">float arr[5] = 0;</string>
+    <string name="topic7_question51_answer">float arr[] = {0.0, 0.0, 0.0, 0.0, 0.0};</string>
+
+    <!-- Question 52 -->
+    <string name="topic7_question52">What does the \'cout\' object in C++ handle?</string>
+    <string name="topic7_question52_option1">File operations</string>
+    <string name="topic7_question52_option2">Error handling</string>
+    <string name="topic7_question52_option3">Output</string>
+    <string name="topic7_question52_option4">Input</string>
+    <string name="topic7_question52_answer">Output</string>
+
+    <!-- Question 53 -->
+    <string name="topic7_question53">Which C++ keyword is used to dynamically deallocate memory?</string>
+    <string name="topic7_question53_option1">delete</string>
+    <string name="topic7_question53_option2">free</string>
+    <string name="topic7_question53_option3">alloc</string>
+    <string name="topic7_question53_option4">dealloc</string>
+    <string name="topic7_question53_answer">delete</string>
+
+    <!-- Question 54 -->
+    <string name="topic7_question54">What is the purpose of the \'continue\' statement in a loop in C++?</string>
+    <string name="topic7_question54_option1">Skip the next iteration</string>
+    <string name="topic7_question54_option2">Exit the loop</string>
+    <string name="topic7_question54_option3">Terminate the program</string>
+    <string name="topic7_question54_option4">End the loop iteration</string>
+    <string name="topic7_question54_answer">Skip the next iteration</string>
+
+    <!-- Question 55 -->
+    <string name="topic7_question55">How do you declare a constant variable in C++?</string>
+    <string name="topic7_question55_option1">const var</string>
+    <string name="topic7_question55_option2">constant var</string>
+    <string name="topic7_question55_option3">var constant</string>
+    <string name="topic7_question55_option4">int const var</string>
+    <string name="topic7_question55_answer">const var</string>
+
+    <!-- Question 56 -->
+    <string name="topic7_question56">What is the purpose of the \'new\' operator in C++?</string>
+    <string name="topic7_question56_option1">Allocate memory statically</string>
+    <string name="topic7_question56_option2">Allocate memory dynamically</string>
+    <string name="topic7_question56_option3">Deallocate memory statically</string>
+    <string name="topic7_question56_option4">Deallocate memory dynamically</string>
+    <string name="topic7_question56_answer">Allocate memory dynamically</string>
+
+    <!-- Question 57 -->
+    <string name="topic7_question57">What does the \'endl\' manipulator in C++ do?</string>
+    <string name="topic7_question57_option1">Ends the line and moves to the next</string>
+    <string name="topic7_question57_option2">Inserts a newline character</string>
+    <string name="topic7_question57_option3">Ends the program</string>
+    <string name="topic7_question57_option4">Starts a new line without moving the cursor</string>
+    <string name="topic7_question57_answer">Inserts a newline character</string>
+
+    <!-- Question 58 -->
+    <string name="topic7_question58">Which C++ keyword is used to define a class?</string>
+    <string name="topic7_question58_option1">class</string>
+    <string name="topic7_question58_option2">struct</string>
+    <string name="topic7_question58_option3">object</string>
+    <string name="topic7_question58_option4">type</string>
+    <string name="topic7_question58_answer">class</string>
+
+    <!-- Question 59 -->
+    <string name="topic7_question59">What is the purpose of the \'friend\' keyword in C++?</string>
+    <string name="topic7_question59_option1">Specify a member function</string>
+    <string name="topic7_question59_option2">Declare a function as a friend</string>
+    <string name="topic7_question59_option3">Define a friend function</string>
+    <string name="topic7_question59_option4">Allow access to private members</string>
+    <string name="topic7_question59_answer">Allow access to private members</string>
+
+    <!-- Question 60 -->
+    <string name="topic7_question60">What is the purpose of the \'typedef\' keyword in C++?</string>
+    <string name="topic7_question60_option1">Define a new type alias</string>
+    <string name="topic7_question60_option2">Define a new data type</string>
+    <string name="topic7_question60_option3">Specify a type for a variable</string>
+    <string name="topic7_question60_option4">Create a type synonym</string>
+    <string name="topic7_question60_answer">Define a new type alias</string>
+
+    <!-- Question 61 -->
+    <string name="topic7_question61">In C++, what is the purpose of the \'static\' keyword when used with a class member?</string>
+    <string name="topic7_question61_option1">Make the member variable accessible only within the class</string>
+    <string name="topic7_question61_option2">Declare the member as constant</string>
+    <string name="topic7_question61_option3">Allocate memory for the member only once</string>
+    <string name="topic7_question61_option4">Prevent the member from being inherited</string>
+    <string name="topic7_question61_answer">Allocate memory for the member only once</string>
+
+    <!-- Question 62 -->
+    <string name="topic7_question62">What is the purpose of the \'default\' keyword in a C++ switch statement?</string>
+    <string name="topic7_question62_option1">Specify the default case</string>
+    <string name="topic7_question62_option2">End the switch statement</string>
+    <string name="topic7_question62_option3">Start the switch statement</string>
+    <string name="topic7_question62_option4">Define the default return value</string>
+    <string name="topic7_question62_answer">Specify the default case</string>
+
+    <!-- Question 63 -->
+    <string name="topic7_question63">How do you define a macro in C++?</string>
+    <string name="topic7_question63_option1">Using the \'def\' keyword</string>
+    <string name="topic7_question63_option2">Using the \'macro\' keyword</string>
+    <string name="topic7_question63_option3">Using the \'#define\' directive</string>
+    <string name="topic7_question63_option4">Using the \'macrodef\' directive</string>
+    <string name="topic7_question63_answer">Using the \'#define\' directive</string>
+
+    <!-- Question 64 -->
+    <string name="topic7_question64">What is the output of the following code snippet?
+\n\nint x = 5, y = 10;
+\ncout &lt;&lt; (x > y) ? x : y;</string>
+    <string name="topic7_question64_option1">5</string>
+    <string name="topic7_question64_option2">10</string>
+    <string name="topic7_question64_option3">x</string>
+    <string name="topic7_question64_option4">y</string>
+    <string name="topic7_question64_answer">10</string>
+
+    <!-- Question 65 -->
+    <string name="topic7_question65">Which C++ operator is used to determine the memory address of a variable?</string>
+    <string name="topic7_question65_option1">&amp; operator</string>
+    <string name="topic7_question65_option2">* operator</string>
+    <string name="topic7_question65_option3">sizeof operator</string>
+    <string name="topic7_question65_option4">nullptr operator</string>
+    <string name="topic7_question65_answer">&amp; operator</string>
+
+    <!-- Question 66 -->
+    <string name="topic7_question66">What is the purpose of the \'volatile\' keyword in C++?</string>
+    <string name="topic7_question66_option1">Specify a variable as constant</string>
+    <string name="topic7_question66_option2">Optimize memory access</string>
+    <string name="topic7_question66_option3">Indicate that a variable may be changed by another thread</string>
+    <string name="topic7_question66_option4">Define a variable as thread-safe</string>
+    <string name="topic7_question66_answer">Indicate that a variable may be changed by another thread</string>
+
+    <!-- Question 67 -->
+    <string name="topic7_question67">What is the purpose of the \'this\' pointer in C++?</string>
+    <string name="topic7_question67_option1">Refer to the current object instance</string>
+    <string name="topic7_question67_option2">Access global variables</string>
+    <string name="topic7_question67_option3">Refer to the parent class</string>
+    <string name="topic7_question67_option4">Access private members</string>
+    <string name="topic7_question67_answer">Refer to the current object instance</string>
+
+    <!-- Question 68 -->
+    <string name="topic7_question68">What is the purpose of the \'auto\' keyword in C++11?</string>
+    <string name="topic7_question68_option1">Declare an automatic variable</string>
+    <string name="topic7_question68_option2">Specify automatic memory allocation</string>
+    <string name="topic7_question68_option3">Infer the variable type from its initializer</string>
+    <string name="topic7_question68_option4">Define an automatic reference</string>
+    <string name="topic7_question68_answer">Infer the variable type from its initializer</string>
+
+    <!-- Question 69 -->
+    <string name="topic7_question69">What is the output of the following code snippet?
+\n\nint x = 5;
+\ncout &lt;&lt; (x++ + ++x);</string>
+    <string name="topic7_question69_option1">10</string>
+    <string name="topic7_question69_option2">11</string>
+    <string name="topic7_question69_option3">12</string>
+    <string name="topic7_question69_option4">13</string>
+    <string name="topic7_question69_answer">13</string>
+
+    <!-- Question 70 -->
+    <string name="topic7_question70">Which C++ keyword is used to define a virtual function?</string>
+    <string name="topic7_question70_option1">virtual</string>
+    <string name="topic7_question70_option2">override</string>
+    <string name="topic7_question70_option3">final</string>
+    <string name="topic7_question70_option4">abstract</string>
+    <string name="topic7_question70_answer">virtual</string>
+
+    <!-- Question 71 -->
+    <string name="topic7_question71">What is the purpose of the \'mutable\' keyword in C++?</string>
+    <string name="topic7_question71_option1">Specify a constant member variable</string>
+    <string name="topic7_question71_option2">Mark a member variable as volatile</string>
+    <string name="topic7_question71_option3">Allow modification of a member variable in a const object</string>
+    <string name="topic7_question71_option4">Indicate a member variable as constant</string>
+    <string name="topic7_question71_answer">Allow modification of a member variable in a const object</string>
+
+    <!-- Question 72 -->
+    <string name="topic7_question72">What is the purpose of the \'try\', \'catch\', and \'throw\' keywords in C++?</string>
+    <string name="topic7_question72_option1">Memory management</string>
+    <string name="topic7_question72_option2">File handling</string>
+    <string name="topic7_question72_option3">Exception handling</string>
+    <string name="topic7_question72_option4">Loop control</string>
+    <string name="topic7_question72_answer">Exception handling</string>
+
+    <!-- Question 73 -->
+    <string name="topic7_question73">How do you access the last element of an array named \'arr\' in C++?</string>
+    <string name="topic7_question73_option1">arr[last]</string>
+    <string name="topic7_question73_option2">arr[last_index]</string>
+    <string name="topic7_question73_option3">arr[end]</string>
+    <string name="topic7_question73_option4">arr[last - 1]</string>
+    <string name="topic7_question73_answer">arr[last - 1]</string>
+
+    <!-- Question 74 -->
+    <string name="topic7_question74">What is the purpose of the \'const_cast\' operator in C++?</string>
+    <string name="topic7_question74_option1">Remove the const qualifier from a variable</string>
+    <string name="topic7_question74_option2">Add the const qualifier to a variable</string>
+    <string name="topic7_question74_option3">Cast a pointer to a reference</string>
+    <string name="topic7_question74_option4">Cast a const object to a non-const object</string>
+    <string name="topic7_question74_answer">Cast a const object to a non-const object</string>
+
+    <!-- Question 75 -->
+    <string name="topic7_question75">Which C++ operator is used to access the member of a class through a pointer?</string>
+    <string name="topic7_question75_option1">.* operator</string>
+    <string name="topic7_question75_option2">-> operator</string>
+    <string name="topic7_question75_option3">:: operator</string>
+    <string name="topic7_question75_option4">&amp; operator</string>
+    <string name="topic7_question75_answer">-> operator</string>
+
+    <!-- Question 76 -->
+    <string name="topic7_question76">What is the purpose of the \'typeid\' operator in C++?</string>
+    <string name="topic7_question76_option1">Retrieve the type of a variable</string>
+    <string name="topic7_question76_option2">Determine the size of a variable</string>
+    <string name="topic7_question76_option3">Calculate the hash value of a variable</string>
+    <string name="topic7_question76_option4">Access the memory address of a variable</string>
+    <string name="topic7_question76_answer">Retrieve the type of a variable</string>
+
+    <!-- Question 77 -->
+    <string name="topic7_question77">What is the purpose of the \'reinterpret_cast\' operator in C++?</string>
+    <string name="topic7_question77_option1">Convert between different pointer types</string>
+    <string name="topic7_question77_option2">Convert between different numeric types</string>
+    <string name="topic7_question77_option3">Convert between different object types</string>
+    <string name="topic7_question77_option4">Convert between different string types</string>
+    <string name="topic7_question77_answer">Convert between different pointer types</string>
+
+    <!-- Question 78 -->
+    <string name="topic7_question78">What is the output of the following code snippet?
+\n\nint arr[] = {1, 2, 3, 4, 5};
+\ncout &lt;&lt; sizeof(arr);</string>
+    <string name="topic7_question78_option1">1</string>
+    <string name="topic7_question78_option2">5</string>
+    <string name="topic7_question78_option3">20</string>
+    <string name="topic7_question78_option4">Cannot determine</string>
+    <string name="topic7_question78_answer">20</string>
+
+    <!-- Question 79 -->
+    <string name="topic7_question79">Which C++ keyword is used to define an alias for a data type?</string>
+    <string name="topic7_question79_option1">typedef</string>
+    <string name="topic7_question79_option2">alias</string>
+    <string name="topic7_question79_option3">define</string>
+    <string name="topic7_question79_option4">type</string>
+    <string name="topic7_question79_answer">typedef</string>
+
+    <!-- Question 80 -->
+    <string name="topic7_question80">What is the purpose of the \'union\' keyword in C++?</string>
+    <string name="topic7_question80_option1">Declare a function</string>
+    <string name="topic7_question80_option2">Define a class</string>
+    <string name="topic7_question80_option3">Create a new variable</string>
+    <string name="topic7_question80_option4">Define a structure with shared memory</string>
+    <string name="topic7_question80_answer">Define a structure with shared memory</string>
+
+    <!-- Question 81 -->
+    <string name="topic7_question81">What is the purpose of the \'decltype\' keyword in C++11?</string>
+    <string name="topic7_question81_option1">Declare a constant variable</string>
+    <string name="topic7_question81_option2">Specify the type of a variable</string>
+    <string name="topic7_question81_option3">Access the address of a variable</string>
+    <string name="topic7_question81_option4">Retrieve the type of an expression</string>
+    <string name="topic7_question81_answer">Retrieve the type of an expression</string>
+
+    <!-- Question 82 -->
+    <string name="topic7_question82">What is the purpose of the \'std::move\' function in C++11?</string>
+    <string name="topic7_question82_option1">Copy an object</string>
+    <string name="topic7_question82_option2">Move an object</string>
+    <string name="topic7_question82_option3">Create a new object</string>
+    <string name="topic7_question82_option4">Destroy an object</string>
+    <string name="topic7_question82_answer">Move an object</string>
+
+    <!-- Question 83 -->
+    <string name="topic7_question83">What is the purpose of the \'default\' keyword in a C++11 constructor?</string>
+    <string name="topic7_question83_option1">Specify a default parameter</string>
+    <string name="topic7_question83_option2">Call the default constructor</string>
+    <string name="topic7_question83_option3">Define a default value</string>
+    <string name="topic7_question83_option4">Use the default implementation</string>
+    <string name="topic7_question83_answer">Use the default implementation</string>
+
+    <!-- Question 84 -->
+    <string name="topic7_question84">What is the purpose of the \'delete\' keyword in C++11?</string>
+    <string name="topic7_question84_option1">Delete a file</string>
+    <string name="topic7_question84_option2">Remove a function</string>
+    <string name="topic7_question84_option3">Free memory</string>
+    <string name="topic7_question84_option4">Prevent the use of default member functions</string>
+    <string name="topic7_question84_answer">Prevent the use of default member functions</string>
+
+    <!-- Question 85 -->
+    <string name="topic7_question85">What is the purpose of the \'constexpr\' keyword in C++11?</string>
+    <string name="topic7_question85_option1">Declare a constant expression</string>
+    <string name="topic7_question85_option2">Define a recursive function</string>
+    <string name="topic7_question85_option3">Create a thread-safe function</string>
+    <string name="topic7_question85_option4">Access a memory location</string>
+    <string name="topic7_question85_answer">Declare a constant expression</string>
+
+    <!-- Question 86 -->
+    <string name="topic7_question86">What is the purpose of the \'auto\' keyword in C++11?</string>
+    <string name="topic7_question86_option1">Define an automatic variable</string>
+    <string name="topic7_question86_option2">Automatically allocate memory</string>
+    <string name="topic7_question86_option3">Automatically determine the type of a variable</string>
+    <string name="topic7_question86_option4">Access the address of a variable</string>
+    <string name="topic7_question86_answer">Automatically determine the type of a variable</string>
+
+    <!-- Question 87 -->
+    <string name="topic7_question87">What is the purpose of the \'override\' keyword in C++11?</string>
+    <string name="topic7_question87_option1">Override a virtual function</string>
+    <string name="topic7_question87_option2">Specify a new implementation</string>
+    <string name="topic7_question87_option3">Override an inherited member</string>
+    <string name="topic7_question87_option4">Prevent name conflicts</string>
+    <string name="topic7_question87_answer">Override a virtual function</string>
+
+    <!-- Question 88 -->
+    <string name="topic7_question88">What is the purpose of the \'final\' keyword in C++11?</string>
+    <string name="topic7_question88_option1">Declare a constant</string>
+    <string name="topic7_question88_option2">Specify the final value</string>
+    <string name="topic7_question88_option3">Mark a class as not inheritable</string>
+    <string name="topic7_question88_option4">End the execution of a function</string>
+    <string name="topic7_question88_answer">Mark a class as not inheritable</string>
+
+    <!-- Question 89 -->
+    <string name="topic7_question89">What is the output of the following code snippet?
+\n\n#include &lt;iostream>
+\nusing namespace std;
+\nint main() {
+\n    int x = 5;
+\n    int&amp; ref = x;
+\n    ref++;
+\n    cout &lt;&lt; x;
+\n    return 0;
+\n}</string>
+    <string name="topic7_question89_option1">4</string>
+    <string name="topic7_question89_option2">5</string>
+    <string name="topic7_question89_option3">6</string>
+    <string name="topic7_question89_option4">Error</string>
+    <string name="topic7_question89_answer">6</string>
+
+    <!-- Question 90 -->
+    <string name="topic7_question90">What is the purpose of the \'typeid\' operator in C++?</string>
+    <string name="topic7_question90_option1">Retrieve the type of a variable</string>
+    <string name="topic7_question90_option2">Determine the size of a variable</string>
+    <string name="topic7_question90_option3">Calculate the hash value of a variable</string>
+    <string name="topic7_question90_option4">Access the memory address of a variable</string>
+    <string name="topic7_question90_answer">Retrieve the type of a variable</string>
+
+    <!-- Question 91 -->
+    <string name="topic7_question91">What is the purpose of the \'reinterpret_cast\' operator in C++?</string>
+    <string name="topic7_question91_option1">Convert between different pointer types</string>
+    <string name="topic7_question91_option2">Convert between different numeric types</string>
+    <string name="topic7_question91_option3">Convert between different object types</string>
+    <string name="topic7_question91_option4">Convert between different string types</string>
+    <string name="topic7_question91_answer">Convert between different pointer types</string>
+
+    <!-- Question 92 -->
+    <string name="topic7_question92">What is the output of the following code snippet?
+\n\nint arr[] = {1, 2, 3, 4, 5};
+\ncout &lt;&lt; sizeof(arr);</string>
+    <string name="topic7_question92_option1">1</string>
+    <string name="topic7_question92_option2">5</string>
+    <string name="topic7_question92_option3">20</string>
+    <string name="topic7_question92_option4">Cannot determine</string>
+    <string name="topic7_question92_answer">20</string>
+
+    <!-- Question 93 -->
+    <string name="topic7_question93">Which C++ keyword is used to define an alias for a data type?</string>
+    <string name="topic7_question93_option1">typedef</string>
+    <string name="topic7_question93_option2">alias</string>
+    <string name="topic7_question93_option3">define</string>
+    <string name="topic7_question93_option4">type</string>
+    <string name="topic7_question93_answer">typedef</string>
+
+    <!-- Question 94 -->
+    <string name="topic7_question94">What is the purpose of the \'union\' keyword in C++?</string>
+    <string name="topic7_question94_option1">Declare a function</string>
+    <string name="topic7_question94_option2">Define a class</string>
+    <string name="topic7_question94_option3">Create a new variable</string>
+    <string name="topic7_question94_option4">Define a structure with shared memory</string>
+    <string name="topic7_question94_answer">Define a structure with shared memory</string>
+
+    <!-- Question 95 -->
+    <string name="topic7_question95">What is the purpose of the \'decltype\' keyword in C++11?</string>
+    <string name="topic7_question95_option1">Declare a constant variable</string>
+    <string name="topic7_question95_option2">Specify the type of a variable</string>
+    <string name="topic7_question95_option3">Access the address of a variable</string>
+    <string name="topic7_question95_option4">Retrieve the type of an expression</string>
+    <string name="topic7_question95_answer">Retrieve the type of an expression</string>
+
+    <!-- Question 96 -->
+    <string name="topic7_question96">What is the output of the following code snippet?
+\n\n#include &lt;iostream>
+\nusing namespace std;
+\nint main() {
+\n    int arr[5] = {1, 2, 3, 4, 5};
+\n    cout &lt;&lt; arr[2];
+\n    return 0;
+\n}</string>
+    <string name="topic7_question96_option1">1</string>
+    <string name="topic7_question96_option2">2</string>
+    <string name="topic7_question96_option3">3</string>
+    <string name="topic7_question96_option4">4</string>
+    <string name="topic7_question96_answer">3</string>
+
+    <!-- Question 97 -->
+    <string name="topic7_question97">What is the purpose of the \'mutable\' keyword in C++?</string>
+    <string name="topic7_question97_option1">Define a constant variable</string>
+    <string name="topic7_question97_option2">Allow modification of a const member variable</string>
+    <string name="topic7_question97_option3">Declare an automatic variable</string>
+    <string name="topic7_question97_option4">Specify a variable as volatile</string>
+    <string name="topic7_question97_answer">Allow modification of a const member variable</string>
+
+    <!-- Question 98 -->
+    <string name="topic7_question98">What is the output of the following code snippet?
+\n\n#include &lt;iostream>
+\nusing namespace std;
+\nint main() {
+\n    int x = 5;
+\n    int* ptr = &amp; x;
+        \n    cout &lt;&lt; *ptr;
+\n    return 0;
+\n}</string>
+    <string name="topic7_question98_option1">5</string>
+    <string name="topic7_question98_option2">&lt;memory address&gt;</string>
+    <string name="topic7_question98_option3">Error</string>
+    <string name="topic7_question98_option4">Undefined behavior</string>
+    <string name="topic7_question98_answer">5</string>
+
+    <!-- Question 99 -->
+    <string name="topic7_question99">What is the purpose of the \'typename\' keyword in C++?</string>
+    <string name="topic7_question99_option1">Specify the name of a class</string>
+    <string name="topic7_question99_option2">Declare a new type</string>
+    <string name="topic7_question99_option3">Access the name of a type</string>
+    <string name="topic7_question99_option4">Define a template type</string>
+    <string name="topic7_question99_answer">Define a template type</string>
+
+    <!-- Question 100 -->
+    <string name="topic7_question100">What is the output of the following code snippet?
+\n\n#include &lt;iostream>
+\nusing namespace std;
+\nint main() {
+\n    int arr[] = {1, 2, 3, 4, 5};
+\n    cout &lt;&lt; sizeof(arr) / sizeof(arr[0]);
+\n    return 0;
+\n}</string>
+    <string name="topic7_question100_option1">1</string>
+    <string name="topic7_question100_option2">4</string>
+    <string name="topic7_question100_option3">5</string>
+    <string name="topic7_question100_option4">Compiler-dependent</string>
+    <string name="topic7_question100_answer">5</string>
+
+
+
+
+
+
 
     <string name="total">Total Questions: 10</string>
     <string name="exit">Exit ?</string>

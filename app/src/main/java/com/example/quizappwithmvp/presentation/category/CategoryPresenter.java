@@ -3,8 +3,8 @@ package com.example.quizappwithmvp.presentation.category;
 import com.example.quizappwithmvp.data.model.CategoryEnum;
 
 public class CategoryPresenter implements CategoryContract.Presenter {
-    private CategoryContract.Model model;
-    private CategoryContract.View view;
+    private final CategoryContract.Model model;
+    private final CategoryContract.View view;
 
     public CategoryPresenter(CategoryContract.View view) {
         this.model = new CategoryModel();

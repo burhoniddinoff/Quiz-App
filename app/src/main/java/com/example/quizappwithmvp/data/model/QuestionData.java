@@ -1,18 +1,18 @@
 package com.example.quizappwithmvp.data.model;
 
 public class QuestionData {
-    private int question;
-    private String[] variants;
-    private String answer;
+    private final int question;
+    private final Integer[] variants;
+    private final Integer answer;
 
     public QuestionData(int question,
-                        String variant1,
-                        String variant2,
-                        String variant3,
-                        String variant4,
-                        String answer) {
+                        int variant1,
+                        int variant2,
+                        int variant3,
+                        int variant4,
+                        int answer) {
         this.question = question;
-        this.variants = new String[]{variant1, variant2, variant3, variant4};
+        this.variants = new Integer[]{variant1, variant2, variant3, variant4};
         this.answer = answer;
     }
 
@@ -20,11 +20,11 @@ public class QuestionData {
         return question;
     }
 
-    public String[] getVariants() {
+    public Integer[] getVariants() {
         return variants;
     }
 
-    public String getAnswer() {
+    public Integer getAnswer() {
         return answer;
     }
 }
