@@ -22,10 +22,10 @@ public class CategoryActivity extends AppCompatActivity implements CategoryContr
     }
 
     private void attachViews() {
-        findViewById(R.id.subject).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.SUBJECT));
-        findViewById(R.id.countries).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.COUNTRIES));
-        findViewById(R.id.planet).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.PLANET));
-        findViewById(R.id.scientist).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.SCIENTIST));
+//        findViewById(R.id.subject).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.SUBJECT));
+//        findViewById(R.id.countries).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.COUNTRIES));
+//        findViewById(R.id.planet).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.PLANET));
+        findViewById(R.id.php).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.PHP));
         findViewById(R.id.java).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.JAVA));
         findViewById(R.id.kotlin).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.KOTLIN));
         findViewById(R.id._c_).setOnClickListener(v -> presenter.setSelectCategory(CategoryEnum.C__));

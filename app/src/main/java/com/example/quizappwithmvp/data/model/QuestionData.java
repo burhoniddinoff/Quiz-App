@@ -3,7 +3,7 @@ package com.example.quizappwithmvp.data.model;
 public class QuestionData {
     private final int question;
     private final Integer[] variants;
-    private final Integer answer;
+    private final int answer;
 
     public QuestionData(int question,
                         int variant1,
@@ -24,7 +24,7 @@ public class QuestionData {
         return variants;
     }
 
-    public Integer getAnswer() {
+    public int getAnswer() {
         return answer;
     }
 }

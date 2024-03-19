@@ -72,22 +72,6 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
                 .create()
                 .show());
 
-//        findViewById(R.id.buttonBack).setOnClickListener(v -> {
-//            MyDialog dialog = new MyDialog();
-//            dialog.setSelectListener(new SelectListener() {
-//                @Override
-//                public void yes() {
-//                    finish();
-//                }
-//
-//                @Override
-//                public void no() {
-//
-//                }
-//            });
-//            dialog.show(getSupportFragmentManager(), "test");
-//        });
-
 
         btnNext.setOnClickListener(v -> present.clickNextButton());
         btnFinish.setOnClickListener(v -> new AlertDialog.Builder(MainActivity.this, R.style.CustomAlertDialog)

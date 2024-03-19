@@ -1,5 +1,8 @@
 package com.example.quizappwithmvp.presentation.main;
 
+import android.util.Log;
+import android.widget.TextView;
+
 import com.example.quizappwithmvp.data.model.QuestionData;
 
 import java.util.List;
@@ -43,7 +46,10 @@ public class MainPresenter implements MainContract.Present {
     public void clickNextButton() {
         QuestionData currentQuestion = questionDataList.get(currentPos);
 
-        if (currentQuestion.getAnswer().equals(currentQuestion.getVariants()[selectIndex])) {
+        Log.d("TTT", String.valueOf(currentQuestion.getAnswer()));
+        Log.d("TTT", String.valueOf(currentQuestion.getVariants()[selectIndex]));
+
+        if (currentQuestion.getAnswer() == currentQuestion.getVariants()[selectIndex]) {
             this.correctCount++;
         } else this.wrongCount++;
 

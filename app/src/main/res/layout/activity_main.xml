@@ -51,6 +51,7 @@
             android:textColor="@color/white"
             android:textSize="18sp"
             tools:text="@tools:sample/avatars" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
